@@ -1,0 +1,63 @@
+# ==========================================
+# 1. ENTORNO DE DESARROLLO Y VIRTUAL ENVS
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+/bin/
+/include/
+/lib/
+/share/
+pyvenv.cfg
+
+# ==========================================
+# 2. ARCHIVOS DE CONFIGURACIÓN Y CREDENCIALES
+# ==========================================
+# ¡CRÍTICO! Nunca subir las llaves de Atlas o de Gemini
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# 3. CACHÉ DE PYTHON Y COMPILACIÓN
+# ==========================================
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# 4. ARCHIVOS ESTÁTICOS Y MULTIMEDIA LOCAL
+# ==========================================
+# Como tus scripts generan URLs o cargan assets pesados,
+# no queremos subir gigabytes de imágenes al repositorio Git.
+app/static/img/**/*.jpg
+app/static/img/**/*.jpeg
+app/static/img/**/*.png
+
+# Excepción: Si quieres conservar las carpetas vacías de los destinos pero sin las fotos,
+# descomenta la siguiente línea (opcional):
+# !app/static/img/**/.gitkeep
+
+# ==========================================
+# 5. CONFIGURACIONES DE EDITORES (IDE)
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# 6. ARCHIVOS DEL SISTEMA OPERATIVO
+# ==========================================
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
