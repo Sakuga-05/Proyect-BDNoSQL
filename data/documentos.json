@@ -1,0 +1,602 @@
+[
+  {
+    "doc_id": "paq_001",
+    "categoria": "paquetes",
+    "titulo": "Cartagena Clásica 4 Días",
+    "texto": "El paquete Cartagena Clásica incluye 4 noches de alojamiento en hotel 4 estrellas dentro de la ciudad amurallada. Se incluyen desayunos diarios, tour guiado por el centro histórico declarado Patrimonio de la Humanidad por la UNESCO, visita al Castillo San Felipe de Barajas y recorrido en chiva típica por la noche. El transporte desde el aeropuerto Rafael Núñez está incluido. Las habitaciones son dobles con aire acondicionado y vista al mar. El paquete tiene un valor de 1.800.000 COP por persona. Disponible todos los fines de semana del año. Ideal para parejas y grupos familiares que desean conocer la historia y cultura caribeña."
+  },
+  {
+    "doc_id": "paq_002",
+    "categoria": "paquetes",
+    "titulo": "San Andrés Todo Incluido 5 Días",
+    "texto": "El paquete San Andrés Todo Incluido cubre 5 noches en el hotel Decamerón Aquarium. Todas las comidas, bebidas alcohólicas y no alcohólicas están incluidas. Se realizan actividades acuáticas como snorkel en el Acuario Natural, paseo en barco de fondo de vidrio y visita a la isla de Johnny Cay. El vuelo de ida y vuelta desde Bogotá está incluido en el precio de 3.200.000 COP por persona. El mar de los siete colores de San Andrés es ideal para el buceo y el descanso. Los niños menores de 3 años no pagan. Cupo máximo de 20 personas por salida."
+  },
+  {
+    "doc_id": "paq_003",
+    "categoria": "paquetes",
+    "titulo": "Eje Cafetero Aventura 4 Noches",
+    "texto": "El paquete Eje Cafetero Aventura incluye 4 noches de alojamiento en finca boutique en Montenegro, Quindío. Se realizan visitas a una finca cafetera tradicional con proceso completo de recolección y tostado, entrada al Parque Nacional del Café, recorrido por el Jardín Botánico del Quindío y senderismo en el bosque de palmas de cera. Los desayunos y dos almuerzos típicos están incluidos. El transporte interno en Willys es parte del paquete. Precio: 1.500.000 COP por persona en habitación doble. Ideal para amantes de la naturaleza y la cultura cafetera colombiana."
+  },
+  {
+    "doc_id": "paq_004",
+    "categoria": "paquetes",
+    "titulo": "Medellín Ciudad de la Eterna Primavera",
+    "texto": "El paquete Medellín City Tour incluye 3 noches en hotel boutique en El Poblado. El recorrido cubre la Comuna 13, el Parque Arví en Metrocable, el Jardín Botánico y el Museo de Antioquia con obras de Fernando Botero. Se incluye tour nocturno por la Zona Rosa y degustación de gastronomía local. Precio base: 980.000 COP por persona. Vuelo desde Bogotá no incluido. Salidas todos los jueves. Ideal para grupos jóvenes y viajeros culturales que desean explorar la transformación urbana de Medellín."
+  },
+  {
+    "doc_id": "paq_005",
+    "categoria": "paquetes",
+    "titulo": "Amazonas Expedición 5 Días",
+    "texto": "La expedición al Amazonas incluye 5 noches en lodge ecoturístico a orillas del río Amazonas en Leticia. Se realizan recorridos por la selva con guía nativo, visita a comunidades indígenas tikuna, pesca de pirañas, avistamiento de delfines rosados y tour nocturno por la selva. Todas las comidas están incluidas así como el transporte fluvial. El vuelo desde Bogotá no está incluido. Precio: 2.400.000 COP por persona. Máximo 12 personas para garantizar experiencia íntima. Requiere vacuna contra fiebre amarilla con mínimo 10 días de anticipación."
+  },
+  {
+    "doc_id": "paq_006",
+    "categoria": "paquetes",
+    "titulo": "Santa Marta y Tayrona Eco",
+    "texto": "El paquete ecológico Santa Marta-Tayrona incluye 2 noches en Santa Marta y 2 noches en ecohabs dentro del Parque Nacional Natural Tayrona. Se incluyen los desayunos, el ingreso al parque, guía certificado y caminata hasta la playa de La Piscina y Cabo San Juan. No incluye almuerzo ni cenas para fomentar el consumo local. Precio: 1.200.000 COP por persona. Cupo máximo 16 personas. Se recomienda llevar repelente, protector solar biodegradable y calzado para caminar. Salidas disponibles de jueves a domingo."
+  },
+  {
+    "doc_id": "paq_007",
+    "categoria": "paquetes",
+    "titulo": "Bogotá Cultural Weekend",
+    "texto": "El paquete Bogotá Cultural Weekend incluye 2 noches en hotel 3 estrellas en La Candelaria. Se visita el Museo del Oro, la Casa de Nariño, el Cerro de Monserrate, el Museo Botero y el barrio La Macarena. El recorrido incluye degustación de ajiaco santafereño en restaurante tradicional. Precio: 650.000 COP por persona con desayuno incluido. Ideal para viajeros nacionales que visitan la capital por primera vez. Transporte en bus turístico incluido los dos días."
+  },
+  {
+    "doc_id": "paq_008",
+    "categoria": "paquetes",
+    "titulo": "Nuquí Ballenas y Pacífico",
+    "texto": "El paquete Nuquí Ballenas incluye 4 noches en posada nativa frente al océano Pacífico. La temporada de avistamiento de ballenas jorobadas es de julio a octubre. Se realizan salidas en lancha con guías expertos, visita a la cascada de amor, pesca artesanal y senderismo por selva húmeda tropical. El tiquete aéreo desde Medellín no está incluido. Precio paquete base: 1.800.000 COP por persona con pensión completa. Sin señal de celular, ideal para desconectarse totalmente. Máximo 8 personas por salida."
+  },
+  {
+    "doc_id": "paq_009",
+    "categoria": "paquetes",
+    "titulo": "Villa de Leyva Colonial",
+    "texto": "El paquete Villa de Leyva incluye 2 noches en hostería colonial. La visita comprende la Plaza Mayor, la Casa Museo Luis Alberto Acuña, el Museo Paleontológico y los viñedos aledaños. Se incluye degustación de vinos locales y cena típica con ajiaco y lechona. Precio: 450.000 COP por persona en habitación doble. Transporte desde Bogotá en bus turístico incluido. Salidas sábados. Ideal para familias y parejas que buscan descanso y cultura en un pueblo patrimonial."
+  },
+  {
+    "doc_id": "paq_010",
+    "categoria": "paquetes",
+    "titulo": "Guatapé y Roca del Peñol",
+    "texto": "El paquete Guatapé de un día incluye transporte desde Medellín, entrada a la Roca del Peñol con sus 740 escalones, recorrido por el colorido pueblo de Guatapé, almuerzo de bandeja paisa a orillas del embalse y paseo en lancha. Precio: 120.000 COP por persona. Salidas martes, jueves, sábados y domingos desde Medellín. El tour dura aproximadamente 10 horas. Incluye refrigerio en el camino. No recomendado para personas con problemas cardíacos o vértigo severo."
+  },
+  {
+    "doc_id": "paq_011",
+    "categoria": "paquetes",
+    "titulo": "Desierto de la Tatacoa 2 Días",
+    "texto": "El paquete La Tatacoa incluye transporte desde Neiva, 1 noche en glamping bajo las estrellas, observación astronómica con telescopio profesional, cabalgata por el desierto rojo y gris, visita al museo paleontológico de Villa Vieja y baño en la piscina natural. Precio: 380.000 COP por persona. Las noches en la Tatacoa son ideales para observar el cielo debido a la escasa contaminación lumínica. Llevar ropa ligera para el día y abrigadora para la noche. Cupo máximo 10 personas."
+  },
+  {
+    "doc_id": "paq_012",
+    "categoria": "paquetes",
+    "titulo": "Capurganá Paraíso Escondido",
+    "texto": "Capurganá es uno de los destinos más vírgenes del Urabá antioqueño. El paquete incluye 3 noches en posada familiar, desayunos, visita a la vecina Sapzurro, caminata a la frontera con Panamá en La Miel, snorkel en arrecifes de coral y tour de avistamiento de aves. Solo se llega en avioneta desde Medellín o en lancha desde Turbo. Precio: 1.600.000 COP incluyendo tiquete aéreo desde Medellín. Destino sin autos ni motos, todo se recorre a pie. Máximo 8 personas."
+  },
+  {
+    "doc_id": "paq_013",
+    "categoria": "paquetes",
+    "titulo": "Rosario y Barú desde Cartagena",
+    "texto": "El paquete Islas del Rosario incluye transporte en lancha rápida desde el muelle de la Bodeguita en Cartagena, snorkel en el arrecife de coral, almuerzo de mariscos en isla Barú, tiempo libre en la playa Blanca y regreso en la tarde. Precio: 180.000 COP por persona. Salidas diarias a las 8:00 AM. Se recomienda llevar protector solar, traje de baño, ropa de cambio y efectivo para compras adicionales. Ideal para combinarlo con el paquete Cartagena Clásica."
+  },
+  {
+    "doc_id": "paq_014",
+    "categoria": "paquetes",
+    "titulo": "Tour Café y Pueblos Patrimonio",
+    "texto": "Este paquete recorre los municipios declarados patrimonio cultural del Eje Cafetero: Salento, Filandia, Marsella y Quinchía. Incluye 3 noches en hotel boutique en Salento, visita al Valle del Cocora con caminata entre palmas de cera, degustación de café de especialidad en tres fincas diferentes, tour de plaza de mercado y taller de elaboración de sombreros vueltiaos. Precio: 1.350.000 COP por persona. Transporte en Willys incluido. Salidas jueves."
+  },
+  {
+    "doc_id": "paq_015",
+    "categoria": "paquetes",
+    "titulo": "Llanos Orientales Llanura Infinita",
+    "texto": "El paquete Llanos incluye 4 noches en hato ganadero en Yopal, Casanare. Actividades: arreo de ganado a caballo, avistamiento de fauna llanera (chigüiros, anacondas, garzas, venados), pesca en caño, joropo en vivo y gastronomía típica (mamona, pisillo de chigüiro). Precio: 1.900.000 COP con pensión completa. La mejor época es entre diciembre y marzo (temporada seca) para ver fauna concentrada en jagüeyes. Vuelo desde Bogotá no incluido. Cupo máximo 10 personas."
+  },
+  {
+    "doc_id": "dest_001",
+    "categoria": "destinos",
+    "titulo": "Guía completa de Cartagena de Indias",
+    "texto": "Cartagena de Indias es la joya del Caribe colombiano, declarada Patrimonio de la Humanidad por la UNESCO en 1984. La ciudad amurallada encierra calles empedradas, balcones floridos y plazas coloniales. El Castillo San Felipe de Barajas, construido por los españoles en el siglo XVII, es la fortaleza más grande de América Latina. Las islas del Rosario, a 45 minutos en lancha, ofrecen aguas cristalinas y arrecifes de coral. La temperatura promedio es de 28°C todo el año. La mejor temporada es diciembre a abril. El aeropuerto Rafael Núñez conecta con las principales ciudades colombianas."
+  },
+  {
+    "doc_id": "dest_002",
+    "categoria": "destinos",
+    "titulo": "Guía completa de San Andrés isla",
+    "texto": "San Andrés es el archipiélago colombiano en el mar Caribe, famoso por el mar de los siete colores resultado de diferentes profundidades y tipos de fondo marino. La isla tiene una longitud de 13 km. El Acuario Natural es uno de los sitios de buceo más visitados, con tortugas marinas y peces tropicales. La cultura raizal, de origen africano e inglés, se refleja en la música, la gastronomía y las tradiciones locales. Se recomienda visitar entre enero y abril, temporada seca. El plato típico es el rondón, sopa de caracol y cangrejo. El aeropuerto Gustavo Rojas Pinilla recibe vuelos directos desde Bogotá, Medellín y Cali."
+  },
+  {
+    "doc_id": "dest_003",
+    "categoria": "destinos",
+    "titulo": "Medellín: transformación urbana y turismo",
+    "texto": "Medellín, la ciudad de la eterna primavera, ha vivido una transformación urbana reconocida internacionalmente. La temperatura promedio anual es de 22°C. El sistema de metro, inaugurado en 1995, es orgullo de sus habitantes. El Metrocable conecta los barrios de ladera con el centro. La Comuna 13, antes catalogada como la más peligrosa del mundo, hoy es un referente de arte urbano y resiliencia. El Parque Arví, accesible en cable, ofrece 1.740 hectáreas de reserva ecológica. El Festival de las Flores en agosto llena la ciudad de color. La Feria de Artesanías de diciembre es otro evento destacado."
+  },
+  {
+    "doc_id": "dest_004",
+    "categoria": "destinos",
+    "titulo": "Santa Marta y el Parque Tayrona",
+    "texto": "Santa Marta es la ciudad más antigua de Colombia, fundada en 1525. Ofrece una mezcla única de playa, sierra nevada y ciudad colonial. El Parque Nacional Natural Tayrona, a 34 km de Santa Marta, protege ecosistemas de selva húmeda tropical y arrecifes de coral. Las playas de La Piscina, Arrecifes y Cabo San Juan son las más visitadas dentro del parque. La Sierra Nevada de Santa Marta, a solo 42 km del mar, es la montaña costera más alta del mundo. La Ciudad Perdida, construcción indígena tairona del siglo IX, requiere una caminata de 4 días. La temperatura en Santa Marta oscila entre 26°C y 34°C."
+  },
+  {
+    "doc_id": "dest_005",
+    "categoria": "destinos",
+    "titulo": "El Eje Cafetero: paisaje cultural cafetero",
+    "texto": "El Paisaje Cultural Cafetero fue declarado Patrimonio de la Humanidad por la UNESCO en 2011. Comprende zonas de los departamentos de Caldas, Risaralda, Quindío y Valle del Cauca. La palma de cera, árbol nacional de Colombia, se concentra en el Valle del Cocora, cerca de Salento. El café colombiano es reconocido mundialmente por su suavidad y aroma. Las fincas cafeteras tradicionales ofrecen experiencias de turismo rural auténtico. Los jeeps Willys, herencia del Plan Marshall de 1950, siguen siendo el transporte emblemático de la región. El clima es templado, entre 18°C y 25°C. La ciudad principal es Armenia, capital del Quindío."
+  },
+  {
+    "doc_id": "dest_006",
+    "categoria": "destinos",
+    "titulo": "La Amazonía colombiana: selva y biodiversidad",
+    "texto": "El departamento del Amazonas, con Leticia como capital, es la puerta de entrada a la selva amazónica colombiana. Colombia comparte la selva amazónica con Brasil, Perú y Ecuador. La biodiversidad es extraordinaria: más de 1.200 especies de mariposas, 600 de aves y 200 de mamíferos. El río Amazonas, con 6.400 km de longitud, es el más caudaloso del mundo. Los delfines rosados son el animal más emblemático del río. Las comunidades indígenas tikuna, huitoto y yagua mantienen sus tradiciones ancestrales. Leticia se conecta con Bogotá por vuelo de 1h45min. La temperatura promedio es 26°C con alta humedad. La mejor época es junio a septiembre."
+  },
+  {
+    "doc_id": "dest_007",
+    "categoria": "destinos",
+    "titulo": "Bogotá: la capital andina",
+    "texto": "Bogotá, a 2.600 metros sobre el nivel del mar, es una de las capitales más altas del mundo. La ciudad concentra los principales museos del país: el Museo del Oro con más de 55.000 piezas precolombinas, el Museo Botero y el Museo Nacional. El barrio La Candelaria es el centro histórico colonial con iglesias del siglo XVII. El cerro de Monserrate, accesible en teleférico o caminando, ofrece vista panorámica de la ciudad. La gastronomía capitalina va desde el ajiaco santafereño hasta la alta cocina de fusión. El aeropuerto El Dorado es el más transitado de Colombia. La temperatura oscila entre 7°C y 19°C."
+  },
+  {
+    "doc_id": "dest_008",
+    "categoria": "destinos",
+    "titulo": "Nuquí y el Pacífico colombiano",
+    "texto": "Nuquí, en el departamento del Chocó, es uno de los destinos más biodiversos del planeta. El Pacífico colombiano registra la mayor pluviosidad del mundo, lo que genera ecosistemas únicos de manglares y selva húmeda. Entre julio y octubre, las ballenas jorobadas llegan desde la Antártida para aparear y tener sus crías en aguas cálidas. El avistamiento de ballenas desde lancha es una experiencia única. Las playas de arena negra son características de esta costa. Solo se llega en avioneta desde Medellín. No hay señal de celular ni cajeros automáticos. La posada nativa Pijiba Lodge es referente del ecoturismo en la zona."
+  },
+  {
+    "doc_id": "dest_009",
+    "categoria": "destinos",
+    "titulo": "Villa de Leyva: pueblo colonial y prehistoria",
+    "texto": "Villa de Leyva, en el departamento de Boyacá, conserva su arquitectura colonial intacta desde su fundación en 1572. La Plaza Mayor, una de las más grandes de Colombia con 14.000 m², está empedrada con piedras del río. El Museo Paleontológico alberga el esqueleto de un kronosaurio de 120 millones de años. Los alrededores ofrecen viñedos donde se produce vino local, el Observatorio Astronómico Muisca y la casa natal de Antonio Nariño. La temperatura media es de 17°C. A solo 40 km está el Parque Nacional Natural El Cocuy. Villa de Leyva recibe turistas todo el año especialmente en Semana Santa y Festival de las Cometas."
+  },
+  {
+    "doc_id": "dest_010",
+    "categoria": "destinos",
+    "titulo": "Los Llanos Orientales: fauna y tradición llanera",
+    "texto": "Los Llanos Orientales cubren los departamentos de Meta, Casanare, Arauca y Vichada, representando el 28% del territorio colombiano. Esta extensa llanura tropical es hogar del chigüiro (roedor más grande del mundo), el caimán del Orinoco, el capibara y el majestuoso jaguar. La ganadería extensiva es la actividad económica principal. La temporada seca (diciembre-marzo) concentra la fauna alrededor de los jagüeyes o pozos de agua, facilitando el avistamiento. El joropo, declarado Patrimonio Cultural Inmaterial, es la música y danza representativa. Yopal (Casanare) y Villavicencio (Meta) son los principales puntos de acceso con vuelos desde Bogotá."
+  },
+  {
+    "doc_id": "dest_011",
+    "categoria": "destinos",
+    "titulo": "Capurganá y Sapzurro: el Urabá paradisíaco",
+    "texto": "Capurganá y Sapzurro son dos corregimientos del municipio de Acandí, Chocó, en la frontera con Panamá. Solo se accede en avioneta de 20 minutos desde Medellín o en lancha de 2 horas desde Turbo. No existen carreteras. El mar Caribe muestra aquí su cara más virgen y tranquila. La caminata de 40 minutos desde Sapzurro hasta la frontera con Panamá en La Miel es una de las más populares. El arrecife de coral de Capurganá está entre los mejor conservados del Caribe colombiano. El buceo con instrucción tiene costo adicional. La temporada alta es de diciembre a abril y de junio a agosto."
+  },
+  {
+    "doc_id": "dest_012",
+    "categoria": "destinos",
+    "titulo": "Desierto de la Tatacoa: astronomía y paleontología",
+    "texto": "El Desierto de la Tatacoa, en el departamento del Huila, es el segundo desierto de Colombia con 330 km². Se divide en dos zonas: el sector rojo (Los Hoyos) y el sector gris (Cuzco), cada uno con paisajes únicos formados por erosión durante millones de años. El Observatorio Astronómico de la Tatacoa es uno de los mejores del país para observar estrellas gracias a la baja humedad y escasa contaminación lumínica. Los fósiles de mamíferos de entre 13 y 7 millones de años se encuentran en el Museo Paleontológico de Villa Vieja. La temperatura diurna puede superar 40°C, mientras que la nocturna baja a 20°C. El acceso es desde Neiva en carro o moto."
+  },
+  {
+    "doc_id": "dest_013",
+    "categoria": "destinos",
+    "titulo": "Guatapé: el pueblo más colorido de Colombia",
+    "texto": "Guatapé, en Antioquia, es conocido como el pueblo más colorido de Colombia por los zócalos pintados en las fachadas que narran la historia y actividades de cada familia. La Roca del Peñol, un monolito granítico de 220 metros de altura, se eleva sobre el embalse artificial que inundó el antiguo municipio en los años 70. Los 740 escalones numerados llevan hasta la cima con vista panorámica de las islas del embalse. El embalse ofrece actividades náuticas como kayak, jet ski y paseos en lancha. La temperatura promedio es de 21°C. Guatapé se encuentra a 79 km de Medellín. El festival del zócalo se celebra en junio."
+  },
+  {
+    "doc_id": "dest_014",
+    "categoria": "destinos",
+    "titulo": "Mompox: la ciudad del tiempo detenido",
+    "texto": "Santa Cruz de Mompox, en Bolívar, fue fundada en 1540 y declarada Patrimonio de la Humanidad por la UNESCO en 1995. La ciudad permanece prácticamente intacta en su arquitectura colonial a orillas del brazo del río Magdalena. Gabriel García Márquez la inmortalizó en El amor en los tiempos del cólera. La filatería en plata es el arte tradicional momposino, reconocible por sus filigranas únicas. La Semana Santa de Mompox es considerada la más bella de Colombia con sus procesiones nocturnas por las calles coloniales. La temperatura media es de 30°C. Se accede desde Cartagena o Barranquilla."
+  },
+  {
+    "doc_id": "dest_015",
+    "categoria": "destinos",
+    "titulo": "Providencia: el paraíso menos conocido",
+    "texto": "Providencia, a 90 km al norte de San Andrés, es considerada uno de los archipiélagos más biodiversos del Caribe. El arrecife coralino que rodea la isla es el tercero más grande del Atlántico occidental. La barrera de coral McLean's Hill fue devastada por el huracán Iota en noviembre de 2020 pero está en proceso de recuperación. La población raizal mantiene sus tradiciones anglófonas y afrocaribeñas. Solo se llega en avioneta de 20 minutos desde San Andrés. El Pico Isabel de Torres, de 360 metros, ofrece vistas espectaculares. La isla no tiene cadenas hoteleras, solo posadas nativas que garantizan autenticidad."
+  },
+  {
+    "doc_id": "res_001",
+    "categoria": "resenas",
+    "titulo": "Reseña viaje a Cartagena en familia",
+    "texto": "Viajamos en familia con dos niños de 8 y 12 años. El hotel en la ciudad amurallada fue perfecto, a dos cuadras de la Plaza de Santo Domingo. La guía Paola fue excelente con los niños, les explicó la historia de manera entretenida. El paseo en chiva nocturna fue el momento favorito de los niños. El calor de Cartagena puede ser agotador en verano, recomendamos salir muy temprano en la mañana y descansar entre 12 y 3 pm. La gastronomía local con patacones, arroz de coco y coctel de camarones fue deliciosa. Las playas del Laguito son tranquilas para los más pequeños. Puntuación: 5 de 5 estrellas. Definitivamente volveremos el próximo diciembre."
+  },
+  {
+    "doc_id": "res_002",
+    "categoria": "resenas",
+    "titulo": "San Andrés: experiencia todo incluido Decamerón",
+    "texto": "Pasamos 5 días en el Decamerón Aquarium y superó todas las expectativas. La comida variada en el buffet, las actividades acuáticas incluidas y el personal siempre atento hicieron del viaje algo memorable. El snorkel en el Acuario Natural fue maravilloso, vimos tortugas y morenas. El único inconveniente fue la playa frente al hotel que es pequeña. Recomendamos hacer el tour de un día a la isla de Johnny Cay (costo adicional de 30.000 COP) para disfrutar de una playa más amplia. La relación calidad-precio es excelente para el todo incluido. Calificación: 4.5 de 5. Ideal para parejas en luna de miel."
+  },
+  {
+    "doc_id": "res_003",
+    "categoria": "resenas",
+    "titulo": "Eje Cafetero: finca y naturaleza auténtica",
+    "texto": "El paquete del Eje Cafetero fue una revelación. La finca en Montenegro donde nos hospedamos tenía vistas increíbles a los cafetales. El proceso del café, desde la recolección hasta la taza, fue educativo e interesante para toda la familia. El recorrido en Willys por caminos destapados fue una aventura divertida. El Parque Nacional del Café es excelente para niños con sus atracciones temáticas. La comida típica, especialmente el sancocho de gallina y las arepas de chócolo, fue auténtica y abundante. El clima fresco y agradable es perfecto para caminar. Puntuación: 5 de 5. Recomendado para cualquier colombiano que no conoce el café de origen."
+  },
+  {
+    "doc_id": "res_004",
+    "categoria": "resenas",
+    "titulo": "Amazonas: experiencia transformadora",
+    "texto": "El viaje a Leticia y la Amazonía colombiana fue sin duda el más impresionante de mi vida. El lodge sobre el río Amazonas con monos y guacamayas volando sobre el techo es algo que no olvidaré. La visita a la comunidad indígena tikuna fue respetuosa y enriquecedora, aprendimos sobre plantas medicinales y artesanías. El avistamiento de delfines rosados en su hábitat natural fue emocionante. La pesca de pirañas, aunque intimidante al principio, resultó ser muy tranquila. El calor y la humedad son intensos: mínimo 30°C todo el tiempo. Llevar mucho repelente. El guía nativo conocía perfectamente la selva. Calificación: 5 de 5 por la experiencia única."
+  },
+  {
+    "doc_id": "res_005",
+    "categoria": "resenas",
+    "titulo": "Tayrona: naturaleza sin filtro",
+    "texto": "El Parque Tayrona es hermoso pero exige preparación física. La caminata de 2 horas hasta Cabo San Juan con el morral es agotadora pero vale cada paso. Las playas dentro del parque, especialmente La Piscina, tienen aguas cristalinas perfectas para snorkel. Las ecohabs en los árboles son una experiencia única aunque rústica, sin aire acondicionado ni agua caliente. La prohibición de plásticos de un solo uso dentro del parque es una medida ambiental que aplaudimos. El acceso a algunas playas está restringido por corrientes peligrosas. Recomendamos ir de lunes a miércoles para evitar la aglomeración de fines de semana. Calificación: 4 de 5."
+  },
+  {
+    "doc_id": "res_006",
+    "categoria": "resenas",
+    "titulo": "Medellín: ciudad sorprendente",
+    "texto": "Medellín me sorprendió profundamente. Venía con prejuicios y me encontré con una ciudad vibrante, segura en las zonas turísticas y llena de arte. La Comuna 13 es una experiencia que cambia perspectivas: ver cómo una comunidad transformó su historia a través del arte urbano, la música y las escaleras eléctricas es inspirador. El Metrocable es eficiente y económico, 3.000 COP el tiquete. El jardín botánico gratuito es un pulmón verde espectacular. La gastronomía del barrio Laureles tiene restaurantes de todas las cocinas del mundo. El clima es perfecto todo el año. El metro es limpio y puntual. Calificación: 4.8 de 5. Volveré definitivamente."
+  },
+  {
+    "doc_id": "res_007",
+    "categoria": "resenas",
+    "titulo": "Guatapé: un día perfecto desde Medellín",
+    "texto": "Hicimos el tour de un día a Guatapé desde Medellín en un bus cómodo. La subida a la Roca del Peñol con sus 740 escalones es agotadora pero la vista es espectacular. Ver el embalse desde arriba con sus múltiples brazos e islas es surrealista. El pueblo de Guatapé con sus zócalos pintados es una delicia para fotografiar. El almuerzo de bandeja paisa a orillas del embalse fue abundante y sabroso. El paseo en lancha fue divertido aunque breve. Recomendamos salir muy temprano para evitar las filas en la roca. El guía fue puntual y con buen humor. Precio justo por la experiencia. Calificación: 4.5 de 5."
+  },
+  {
+    "doc_id": "res_008",
+    "categoria": "resenas",
+    "titulo": "Nuquí: sin señal, con alma",
+    "texto": "Cinco días sin celular en Nuquí fue exactamente lo que necesitaba. La posada nativa es sencilla pero cómoda, con comida de mar increíble: langosta, cangrejo y pargo rojo fresquísimo. La salida al amanecer para ver ballenas jorobadas fue mágica, dos madres con sus crías saltando cerca de la lancha. La caminata hasta la cascada de amor por selva pura es una de las mejores que he hecho. Las playas de arena negra al atardecer son hipnóticas. El único inconveniente es el costo del tiquete en avioneta desde Medellín: 450.000 COP ida y vuelta. Llevar efectivo suficiente. Sin cajeros. Calificación: 5 de 5 para quienes buscan desconexión real."
+  },
+  {
+    "doc_id": "res_009",
+    "categoria": "resenas",
+    "titulo": "Villa de Leyva: fin de semana perfecto",
+    "texto": "Villa de Leyva es el destino perfecto para un fin de semana desde Bogotá. La plaza empedrada más grande de Colombia impresiona desde el primer momento. La hostería donde nos hospedamos tenía chimenea, ideal para las frías noches boyacenses. La visita al Museo Paleontológico fue fascinante, el kronosaurio es impresionante. La degustación de vinos en el viñedo aledaño fue una grata sorpresa, Colombia produce vinos decentes. El mercado artesanal los fines de semana es un laberinto de artesanías y recuerdos. Las calles empedradas son difíciles para tacones, recomendamos zapatos cómodos. Calificación: 4.5 de 5."
+  },
+  {
+    "doc_id": "res_010",
+    "categoria": "resenas",
+    "titulo": "Tatacoa: cielo estrellado incomparable",
+    "texto": "La Tatacoa de noche vale todo el viaje. Con el telescopio del observatorio vimos Saturno con sus anillos claramente, la Vía Láctea sin contaminación lumínica y constelaciones que nunca había identificado. El astrofísico que guía las noches de observación es apasionado y didáctico. De día, el paisaje rojizo de Los Hoyos parece de otro planeta, perfecto para fotografía. El glamping fue básico pero funcional, con ventilador que se agradece con los 38°C del día. La cabalgata al amanecer fue serena y fresca. El desayuno en la posada fue casero y delicioso. Calificación: 4.5 de 5. Recomendamos ir de martes a jueves para evitar multitudes."
+  },
+  {
+    "doc_id": "res_011",
+    "categoria": "resenas",
+    "titulo": "Mompox: Semana Santa memorable",
+    "texto": "Vivir la Semana Santa de Mompox fue una de las experiencias culturales más profundas de mi vida. Las procesiones nocturnas con cientos de nazarenos encapuchados portando imágenes coloniales por las calles empedradas son solemnes y emocionantes. El calor es extremo, 34°C incluso de noche, llevar mucho agua. La arquitectura colonial intacta hace sentir que el tiempo se detuvo en el siglo XVIII. La filigrana en plata de los artesanos locales es de una delicadeza excepcional, compramos varios pendientes. El hotel boutique en casa colonial fue encantador aunque caro en temporada de Semana Santa. Reserve con meses de anticipación. Calificación: 5 de 5."
+  },
+  {
+    "doc_id": "res_012",
+    "categoria": "resenas",
+    "titulo": "Capurganá: difícil de llegar, imposible de olvidar",
+    "texto": "La avioneta de 20 minutos desde Medellín llegando a Capurganá sobrevuela la selva del Darién y aterriza en una pista rústica que ya prepara para la aventura. Sin carros, sin motos, solo caminos de arena y botes. El mar Caribe en Capurganá tiene colores imposibles de creer. El snorkel en el arrecife es de los mejores que he hecho, con abundante vida marina. La caminata hasta la frontera con Panamá por sendero selva es corta pero emocionante. La posada familiar fue acogedora, comida casera incluida. Los mosquitos son agresivos al atardecer, repelente obligatorio. Calificación: 5 de 5 para viajeros que buscan autenticidad."
+  },
+  {
+    "doc_id": "res_013",
+    "categoria": "resenas",
+    "titulo": "Bogotá: más de lo esperado",
+    "texto": "Bogotá tiene mala reputación injusta. El barrio La Candelaria con sus museos, el teleférico a Monserrate y el barrio La Macarena con su gastronomía de vanguardia fueron revelaciones. El Museo del Oro es simplemente extraordinario, las 55.000 piezas de oro precolombino dejan sin palabras. El Mercado de la Perseverancia tiene los mejores jugos de fruta del país. El frío capitalino (máximo 18°C) obliga a llevar chaqueta incluso en verano. La ciclovía dominical convierte las principales avenidas en parques lineales, una iniciativa ejemplar. El Transmilenio puede ser caótico en horas pico. Los taxis de plataforma son confiables. Calificación: 4.2 de 5."
+  },
+  {
+    "doc_id": "res_014",
+    "categoria": "resenas",
+    "titulo": "Llanos: la Colombia que nadie ve",
+    "texto": "El viaje al hato llanero en Casanare reveló una Colombia completamente diferente. Montamos a caballo con los vaqueros llaneros desde las 5:30 AM para arrear el ganado antes del calor del día. Ver cientos de chigüiros paciendo junto a garcetas blancas es un espectáculo que parece un documental de National Geographic. La mamona (ternera a la llanera) preparada en el hato fue la carne más sabrosa que he probado en mi vida. El joropo en vivo con arpa, cuatro y maracas fue emotivo. La sabana al atardecer con tonos naranjas y morados es de una belleza sobrecogedora. Calificación: 5 de 5. Destino subestimado que merece más visibilidad."
+  },
+  {
+    "doc_id": "res_015",
+    "categoria": "resenas",
+    "titulo": "Providencia: el Caribe sin masificar",
+    "texto": "Providencia sigue siendo el secreto mejor guardado del Caribe colombiano. La isla pequeña, sin cadenas hoteleras ni McDonald's, ofrece una experiencia auténtica que San Andrés perdió hace décadas. Las posadas nativas raizales son acogedoras y la comida de mar es fresca y deliciosa. El buceo alrededor del arrecife coralino en recuperación post-huracán Iota es esperanzador, la coral está regenerándose visiblemente. Los locales son amables y orgullosos de su isla. La avioneta desde San Andrés tarda 20 minutos y cuesta 150.000 COP. Sin cajeros automáticos, llevar efectivo. Calificación: 4.8 de 5. Visítala antes de que la masifiquen."
+  },
+  {
+    "doc_id": "res_016",
+    "categoria": "resenas",
+    "titulo": "Guía excelente en San Andrés",
+    "texto": "El guía turístico Roberto en San Andrés fue excepcional. Su conocimiento de la historia raizal, la geografía submarina y los mejores spots de snorkel convirtió el tour en una experiencia educativa además de divertida. Habla inglés, español y el creole local, lo que permitió comunicarse con los isleños de manera auténtica. Su recomendación del restaurante Donde Francesca para comer rondón fue acertada, el mejor plato de la estadía. Puntual, organizado y con excelente sentido del humor. El precio del tour privado con Roberto es 80.000 COP por persona para grupo de 4. Altamente recomendado. Calificación guía: 5 de 5."
+  },
+  {
+    "doc_id": "res_017",
+    "categoria": "resenas",
+    "titulo": "Paquete Rosario y Barú decepcionante",
+    "texto": "El tour a las Islas del Rosario y Barú no cumplió las expectativas prometidas. La lancha estaba sobrecargada con 40 personas cuando el aforo recomendado es 25. El tiempo en isla Barú fue solo 2 horas, insuficiente para disfrutar la playa. El almuerzo de mariscos fue de calidad mediocre y costoso. El snorkel prometido en el arrecife duró solo 20 minutos. Los vendedores en playa Blanca son muy insistentes y agresivos con los turistas. La lancha regresó tarde, casi de noche. La relación calidad-precio no justifica el costo. Recomendamos buscar operadores locales más pequeños. Calificación: 2 de 5. Oportunidad de mejora significativa."
+  },
+  {
+    "doc_id": "res_018",
+    "categoria": "resenas",
+    "titulo": "Eje Cafetero con niños: éxito total",
+    "texto": "Llevamos a nuestros hijos de 6, 9 y 14 años al Eje Cafetero y fue un viaje perfecto para todas las edades. El menor de 6 años quedó fascinado con los jeeps Willys pintados de colores. El de 9 no se quiso ir del Parque Nacional del Café. El de 14 se convirtió en experto en proceso del café después de la visita a la finca. La finca donde nos hospedamos en Salento tenía una hamaca en la terraza con vista al Valle del Cocora, donde pasamos horas viendo las palmas de cera. El pueblo de Salento es perfecto para caminar y comprar artesanías. El clima fresco facilitó las caminatas. Calificación: 5 de 5."
+  },
+  {
+    "doc_id": "res_019",
+    "categoria": "resenas",
+    "titulo": "Amazonas: preparación esencial",
+    "texto": "Antes de viajar al Amazonas, asegúrese de: vacuna contra fiebre amarilla con mínimo 10 días de anticipación (obligatoria), pastillas antipalúdicas desde una semana antes, repelente de alta concentración DEET, ropa de manga larga y larga para los mosquitos nocturnos, zapatos de agua para las caminatas por barro, botiquín básico y medicamentos personales. La malaria existe en la zona pero con precauciones el riesgo es bajo. El agua del grifo no es potable, beba solo agua embotellada. El lodge incluía agua purificada. A pesar de todas las precauciones, la experiencia vale completamente el esfuerzo preparatorio. Calificación: 5 de 5."
+  },
+  {
+    "doc_id": "res_020",
+    "categoria": "resenas",
+    "titulo": "Mompox fuera de temporada: tranquilidad absoluta",
+    "texto": "Visitamos Mompox en octubre, temporada baja, y fue una experiencia completamente diferente a la Semana Santa masificada. La ciudad prácticamente para nosotros. Pudimos fotografiar las iglesias coloniales sin turistas, charlar tranquilamente con los artesanos de filigrana en plata y tomar café en las terrazas coloniales mirando el río Magdalena. El calor es implacable todo el año, 34-36°C, pero con ventiladores y ritmo pausado es manejable. Los precios en temporada baja son 40% menores. El barco de río por el Magdalena fue romántico y lento. Calificación: 4.5 de 5. Recomendamos temporada baja para quienes buscan autenticidad sin aglomeraciones."
+  },
+  {
+    "doc_id": "res_021",
+    "categoria": "resenas",
+    "titulo": "Santa Marta ciudad + Tayrona: combinación perfecta",
+    "texto": "Hicimos 3 noches en Santa Marta y 2 en Tayrona. En Santa Marta visitamos el centro histórico, la quinta de San Pedro Alejandrino donde murió Simón Bolívar y el mercado de pescado. Las noches en el Tayrona en las ecohabs fueron mágicas aunque el calor sin aire acondicionado cuesta al principio. La caminata del primer día hasta Cabo San Juan fue la más bella: playa de cocoteros, aguas turquesas y amanecer sin ruido. El parque prohíbe el ingreso de bebidas alcohólicas y plásticos de un solo uso. Llevar solo lo necesario. El ranger explicó sobre la fauna y flora del parque muy bien. Calificación: 4.7 de 5."
+  },
+  {
+    "doc_id": "res_022",
+    "categoria": "resenas",
+    "titulo": "Bogotá gastronómica: una semana comiendo bien",
+    "texto": "Pasé una semana en Bogotá con el único objetivo de comer bien y la ciudad lo superó. El ajiaco santafereño en La Puerta Falsa del centro histórico es el platillo más reconfortante del mundo. Los restaurantes de cocina de vanguardia en el barrio La Macarena como Leo y Criterión compiten con los mejores del mundo. El mercado de Paloquemao al amanecer ofrece las frutas tropicales más frescas. El barrio Usaquén los domingos tiene mercado de artesanías y food trucks con comida internacional. Las sopas tradicionales como el caldo de costilla del desayuno son un ritual santafereño. Bogotá es, sin duda, la capital gastronómica de Colombia. Calificación: 5 de 5."
+  },
+  {
+    "doc_id": "res_023",
+    "categoria": "resenas",
+    "titulo": "Llanos en temporada de lluvias",
+    "texto": "Fuimos a los Llanos en julio, plena temporada de lluvias, y la experiencia fue diferente a la temporada seca pero igualmente válida. El hato se convierte en un mar de esmeralda con helechos y flores silvestres. La fauna estaba más dispersa que en sequía pero vimos anacondas en los charcos, garzas y caimanes con crías. El acceso por carretera fue complicado con un punto de trancón de 3 horas por una inundación. Los caños estaban llenos y navegables, lo que no pasa en sequía. La experiencia de ver el llano verde en lugar del dorado-seco fue hermosa aunque diferente. Calificación: 4 de 5. Temporada seca es más espectacular para fauna."
+  },
+  {
+    "doc_id": "res_024",
+    "categoria": "resenas",
+    "titulo": "Hotel boutique La Candelaria Bogotá",
+    "texto": "El Hotel de la Opera en La Candelaria fue excepcional. Ubicado en dos casas coloniales del siglo XVIII restauradas con respeto por la arquitectura original. Las habitaciones conservan techos de madera y paredes de tapia pisada. El desayuno en el patio colonial con chorros de agua fue un lujo tranquilo. La ubicación permite caminar a todos los museos del centro histórico. El personal fue atento y conocedor de la ciudad. El restaurante del hotel sirve cocina colombiana contemporánea de calidad. Precio de 280.000 COP por noche doble. Un poco costoso para Colombia pero la experiencia patrimonial lo justifica. Calificación: 4.8 de 5."
+  },
+  {
+    "doc_id": "res_025",
+    "categoria": "resenas",
+    "titulo": "Agencia de viajes: atención personalizada",
+    "texto": "La agencia organizó nuestro viaje a San Andrés con una atención que superó lo esperado. Desde la selección del hotel hasta la reserva de actividades acuáticas, todo estuvo coordinado sin contratiempos. Cuando llegamos al aeropuerto y nuestro vuelo fue retrasado 4 horas, la asesora de la agencia nos consiguió acceso a la sala VIP. En el destino, el representante local estuvo disponible las 24 horas por WhatsApp. El manual de viaje entregado con mapas, recomendaciones de restaurantes y números de emergencia fue muy útil. El precio final coincidió exactamente con el presupuesto acordado, sin cobros adicionales sorpresivos. Calificación agencia: 5 de 5."
+  },
+  {
+    "doc_id": "seg_001",
+    "categoria": "seguros",
+    "titulo": "Condiciones Seguro Viaje Nacional Básico",
+    "texto": "El Seguro de Viaje Nacional Básico cubre: gastos médicos por accidente o enfermedad hasta 5.000.000 COP, asistencia médica de emergencia 24 horas, repatriación sanitaria en caso de emergencia médica grave, equipaje perdido hasta 500.000 COP, cancelación del viaje por enfermedad documentada del asegurado o familiar directo hasta primer grado de consanguinidad. No cubre: enfermedades preexistentes no declaradas, lesiones derivadas de deportes extremos no contratados, pérdida de equipaje de mano no declarada, daños causados bajo influencia de alcohol o sustancias. Vigencia: duración del viaje más 24 horas. Costo: 25.000 COP por día de cobertura. Edad máxima sin recargo: 70 años."
+  },
+  {
+    "doc_id": "seg_002",
+    "categoria": "seguros",
+    "titulo": "Condiciones Seguro Viaje Internacional Premium",
+    "texto": "El Seguro de Viaje Internacional Premium cubre: gastos médicos hasta USD 100.000, evacuación médica de emergencia sin límite de costo, repatriación de restos mortales, cancelación del viaje hasta 30 días antes por causa justificada con reembolso del 80%, demora de vuelo superior a 4 horas con indemnización de USD 50 por cada 4 horas adicionales, pérdida de equipaje facturado hasta USD 1.500, responsabilidad civil hasta USD 50.000, extensión de estadía por hospitalización. No cubre deportes extremos como paracaidismo, escalada sin guía certificado, motocross. Para viajeros mayores de 75 años se requiere examen médico previo. Costo desde USD 3.50 por día."
+  },
+  {
+    "doc_id": "seg_003",
+    "categoria": "seguros",
+    "titulo": "Condiciones Seguro Deportes Extremos y Aventura",
+    "texto": "El Seguro de Aventura y Deportes Extremos amplía la cobertura estándar para: rappel, escalada en roca, parapente, rafting hasta clase IV, senderismo de alta montaña hasta 5.000 metros de altitud, buceo recreativo hasta 40 metros de profundidad, mountain bike, kayak en aguas bravas. Exclusiones absolutas: BASE jumping, wingsuit flying, buceo técnico por encima de límites de certificación, escalada en hielo sin guía certificado, rafting clase V o superior sin operador autorizado. Cobertura médica hasta 20.000.000 COP, evacuación en helicóptero hasta montaña incluida. Requiere declaración de actividades al momento de contratación. Costo adicional del 40% sobre seguro base."
+  },
+  {
+    "doc_id": "seg_004",
+    "categoria": "seguros",
+    "titulo": "Proceso de reclamación de seguro de viaje",
+    "texto": "Para hacer efectiva una reclamación del seguro de viaje, el asegurado debe: 1. Notificar a la línea de asistencia 24/7 en el momento del siniestro antes de incurrir en gastos médicos mayores. 2. Obtener todos los documentos en el destino: informes médicos, facturas originales, reportes policiales en caso de robo. 3. Conservar los tiquetes, tarjetas de embarque y comprobantes de alojamiento. 4. Presentar la reclamación formal dentro de los 30 días siguientes al regreso del viaje. 5. Incluir copia del contrato de seguro y de la documentación del siniestro. Los reembolsos se procesan en máximo 15 días hábiles. Las reclamaciones fraudulentas implican cancelación inmediata de la póliza y acciones legales."
+  },
+  {
+    "doc_id": "seg_005",
+    "categoria": "seguros",
+    "titulo": "Seguro para viajes en crucero",
+    "texto": "El Seguro Crucero cubre particularidades de los viajes marítimos: evacuación médica desde el barco a tierra firme, gastos médicos a bordo del crucero hasta USD 50.000, pérdida de conexión de crucero por vuelo demorado con gastos de transporte alternativo hasta USD 1.000, cancelación por mal tiempo extremo que impida zarpar, robo en puertos de escala. No cubre enfermedades de mar (mareo) excepto complicaciones graves documentadas. Cobertura especial para cabinas con valor superior a USD 500 por noche. Requiere contratación mínima 10 días antes de la fecha de zarpe. Aplica para cruceros en el Caribe colombiano, Pacífico y cruceros internacionales. Costo: USD 4 por día de crucero."
+  },
+  {
+    "doc_id": "seg_006",
+    "categoria": "seguros",
+    "titulo": "Cobertura médica para destinos remotos",
+    "texto": "Para destinos como la Amazonía colombiana, Nuquí, Capurganá y Llanos Orientales, la cobertura estándar incluye evacuación médica en helicóptero o avioneta desde el punto más cercano con capacidad médica. El tiempo máximo de respuesta para evacuación es 4 horas desde la notificación. Se requiere que el contratante declare el destino específico al adquirir el seguro. Los destinos remotos tienen un recargo del 25% sobre la prima estándar. La cobertura incluye picadura de serpiente con suministro de antiveneno, paludismo con tratamiento completo, accidentes en actividades de senderismo y navegación fluvial. El número de asistencia debe guardarse sin conexión a internet dado que estos destinos no tienen señal."
+  },
+  {
+    "doc_id": "seg_007",
+    "categoria": "seguros",
+    "titulo": "Seguro de viaje para adultos mayores",
+    "texto": "El Seguro Senior está diseñado para viajeros entre 71 y 85 años. Cubre: gastos médicos hasta 8.000.000 COP con declaración de salud previa, medicamentos de mantenimiento para condiciones preexistentes declaradas hasta 1.000.000 COP por viaje, asistencia para movilidad reducida en aeropuertos y hoteles, repatriación de restos. Las enfermedades preexistentes deben declararse en formulario específico al momento de contratación. La prima incluye un examen médico virtual previo con médico de la aseguradora. No se emite para mayores de 86 años sin autorización especial. Requiere acompañante si el viajero requiere asistencia continua para actividades básicas. Costo base: 45.000 COP por día de viaje."
+  },
+  {
+    "doc_id": "seg_008",
+    "categoria": "seguros",
+    "titulo": "Exclusiones comunes en seguros de viaje",
+    "texto": "Las exclusiones más frecuentes en pólizas de seguro de viaje para turismo en Colombia incluyen: enfermedades preexistentes no declaradas correctamente, lesiones provocadas intencionalmente, accidentes bajo influencia comprobada de alcohol (más de 0.8 g/L en sangre) o sustancias psicoactivas, deportes extremos no incluidos en la cobertura contratada, viaje a zonas con alerta roja del Ministerio de Relaciones Exteriores o recomendación de no viaje, pérdida de documentos por descuido (no aplica robo con violencia), daños a terceros por comportamiento negligente, costos de tratamiento estético o no urgente, gastos de comunicaciones y llamadas personales durante hospitalización. Lea el clausulado completo antes de contratar."
+  },
+  {
+    "doc_id": "seg_009",
+    "categoria": "seguros",
+    "titulo": "Asistencia al viajero: qué esperar",
+    "texto": "El servicio de asistencia al viajero de la agencia está disponible 24 horas los 365 días del año. Al llamar, un coordinador de asistencia evaluará su situación y activará los protocolos correspondientes: para emergencias médicas, contactará la red de clínicas y hospitales aliados en el destino; para pérdida de documentos, orientará sobre el proceso ante el consulado colombiano más cercano; para cancelaciones de vuelos, gestionará vuelos alternativos o alojamiento de emergencia según la póliza. La línea de asistencia es de tarificación especial, sin costo para el asegurado desde teléfono fijo. Desde celular puede haber costos según el operador. WhatsApp disponible como canal alternativo en zonas con internet pero sin señal tradicional."
+  },
+  {
+    "doc_id": "seg_010",
+    "categoria": "seguros",
+    "titulo": "Recomendaciones antes de contratar seguro de viaje",
+    "texto": "Antes de contratar un seguro de viaje, verifique: que la cobertura médica sea suficiente para el destino (en destinos remotos se necesita evacuación en helicóptero), que las actividades que planea realizar estén cubiertas (buceo, senderismo, rafting), que las enfermedades crónicas que padezca estén declaradas y cubiertas en la póliza, que el límite por equipaje sea acorde al valor real de lo que lleva, que tenga cobertura de cancelación si hay posibilidad real de imprevisto antes del viaje. Compare al menos 3 aseguradoras. El precio más bajo no siempre es la mejor opción. Pida ejemplos específicos de casos que la póliza cubre y casos que no cubre. Guarde el número de asistencia en su teléfono sin conexión a internet."
+  },
+  {
+    "doc_id": "iti_001",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Cartagena 4 días detallado",
+    "texto": "DÍA 1: Llegada al aeropuerto Rafael Núñez, traslado al hotel en la ciudad amurallada (30 min). Por la tarde, paseo libre por el barrio Getsemaní y la Plaza de la Trinidad. Cena en restaurante La Vitrola. DÍA 2: Tour guiado por el centro histórico (Catedral, Palacio de la Inquisición, Portal de los Dulces). Tarde: Castillo San Felipe de Barajas y Cerro de La Popa. Noche: chiva carpas. DÍA 3: Excursión a las Islas del Rosario (salida 8 AM, regreso 5 PM). Snorkel, almuerzo de mariscos. DÍA 4: Mañana libre para compras en el mercado artesanal. Mediodía: traslado al aeropuerto. Notas: reservar restaurante La Vitrola con anticipación, llevar efectivo para propinas y artesanías."
+  },
+  {
+    "doc_id": "iti_002",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario San Andrés 5 días todo incluido",
+    "texto": "DÍA 1: Llegada, check-in Decamerón, tarde libre en piscina y playa del hotel. DÍA 2: Recorrido isla en moto (Johnny Cay, El Cove, La Loma, Cueva de Morgan, El Hoyo Soplador). DÍA 3: Tour Acuario Natural y Johnny Cay (incluido en paquete). Snorkel con tortugas. DÍA 4: Día libre en el hotel o buceo con instructor (costo adicional 150.000 COP por inmersión). DÍA 5: Mañana libre, compras en el free shop del aeropuerto, vuelo de regreso. Recomendaciones: el free shop permite comprar licores y perfumes libres de impuesto, llevar el pasaporte, las motos se alquilan sin licencia de conducción pero con precaución, el sol en San Andrés es muy intenso, protector 50+ obligatorio."
+  },
+  {
+    "doc_id": "iti_003",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Medellín 3 días cultural",
+    "texto": "DÍA 1: Llegada, instalación en El Poblado. Tarde: Parque Lleras y zona rosa. Noche: restaurante en Parque Bello Horizonte. DÍA 2: Mañana: Metro + Metrocable a la Comuna 13 (tour de graffiti 2 horas). Tarde: Jardín Botánico (gratis) y Parque Explora. Noche: tour de bares en Laureles. DÍA 3: Mañana: Metrocable + teleférico al Parque Arví (senderismo 2 horas). Tarde: Museo de Antioquia (obras Botero) y Plaza Botero. Noche: aeropuerto José María Córdova. Tiquete metro: 3.000 COP, cable incluido en el tiquete del metro. Guía para tour graffiti Comuna 13: 30.000 COP por persona, incluye entrada a las escaleras eléctricas."
+  },
+  {
+    "doc_id": "iti_004",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Eje Cafetero 4 noches",
+    "texto": "DÍA 1: Vuelo a Armenia o Pereira, traslado a finca en Salento (1.5 horas). Tarde de descanso y café de bienvenida. DÍA 2: Mañana: Valle del Cocora (caminata 3 horas entre palmas de cera). Tarde: Salento pueblo, tiendas de artesanías, punto de mirador. DÍA 3: Finca cafetera completa: recolección, despulpado, lavado, secado, tostado y cata. Tarde libre en el pueblo. DÍA 4: Parque Nacional del Café (Montenegro, Quindío). Regreso a la finca. DÍA 5: Traslado al aeropuerto, vuelo de regreso. La época de cosecha de café es marzo-junio y octubre-diciembre, ideal para vivir el proceso completo. Los Willys salen de Salento al Valle del Cocora cada hora: 4.000 COP."
+  },
+  {
+    "doc_id": "iti_005",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Amazonas 5 días desde Leticia",
+    "texto": "DÍA 1: Llegada a Leticia (vuelo 1h45 desde Bogotá). Traslado en lancha rápida al lodge (45 min río arriba). Instalación. Tarde: primer contacto con la selva, charla de bienvenida sobre ecosistema amazónico. DÍA 2: Amanecer en canoa (avistamiento de delfines y aves). Tarde: visita comunidad indígena tikuna (artesanías, planta medicinal). DÍA 3: Senderismo en selva (4 horas). Tarde: pesca de pirañas en el río. Noche: tour nocturno escuchando sonidos de la selva. DÍA 4: Excursión al Brasil: Tabatinga. Tarde libre en el lodge. DÍA 5: Traslado a Leticia. Tarde libre en el mercado artesanal. Vuelo de regreso. Llevar: repelente DEET mínimo 30%, pastillas purificadoras, linterna, calzado impermeable, ropa de manga larga."
+  },
+  {
+    "doc_id": "iti_006",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Santa Marta y Tayrona 5 días",
+    "texto": "DÍA 1: Llegada a Santa Marta, instalación en hotel en el Rodadero. Tarde: playa y primera noche de gastronomía local (ceviche de camarón). DÍA 2: Tour ciudad Santa Marta: Quinta de San Pedro Alejandrino, centro histórico, Catedral. Tarde: Taganga para snorkel (15 minutos de Santa Marta). DÍA 3: Traslado a Parque Tayrona. Instalación en ecohabs. Caminata hasta La Piscina (2 horas). DÍA 4: Amanecer en Cabo San Juan. Tarde: snorkel en Arrecifes. Noche en hammock house. DÍA 5: Regreso caminando hasta el punto de acceso (2 horas). Traslado aeropuerto. Recomendación: dentro del parque no hay cajeros, llevar efectivo para gastos de comida y propinas. El parque puede cerrar temporalmente por mantenimiento ambiental."
+  },
+  {
+    "doc_id": "iti_007",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Nuquí 4 noches Pacífico",
+    "texto": "DÍA 1: Vuelo Medellín-Nuquí (20 min) en aerolínea regional. Traslado en lancha a la posada (15 min). Instalación. Tarde: playa de arena negra y puesta de sol sobre el Pacífico. DÍA 2 (julio-octubre): Salida en lancha al amanecer para avistamiento de ballenas jorobadas (3-4 horas). Tarde: caminata a cascada de amor (1.5 horas). DÍA 3: Snorkel y buceo en arrecife de coral. Tarde: visita a comunidad afrodescendiente, aprenda a preparar encocado de jaiba. DÍA 4: Pesca artesanal con pescadores locales al amanecer. Tarde libre. DÍA 5: Vuelo de regreso. Sin señal celular toda la estadía. Llevar libros, juegos de mesa y actitud desconectada. Efectivo suficiente para todo el viaje."
+  },
+  {
+    "doc_id": "iti_008",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Bogotá cultural 3 días",
+    "texto": "DÍA 1: Llegada El Dorado. Instalación en La Candelaria. Tarde: subida a Monserrate en teleférico (16.500 COP) para vista panorámica. Noche: cena en Andrés Carne de Res si presupuesto lo permite, o ajiaco en La Puerta Falsa. DÍA 2: Mañana: Museo del Oro (20.000 COP, lunes gratis). Tarde: Museo Botero (gratis), Plaza de Bolívar, Palacio Liévano. Noche: barrio La Macarena, coctelería colombiana. DÍA 3: Mañana: Mercado de Paloquemao (frutas exóticas, flores). Tarde: barrio Usaquén (si es domingo, mercado de pulgas). Noche: vuelo de regreso. Transporte recomendado: apps de taxi (Cabify, InDriver) o metro de Bogotá en prueba piloto 2024."
+  },
+  {
+    "doc_id": "iti_009",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Guatapé día completo",
+    "texto": "6:30 AM: Salida en bus desde terminal norte de Medellín (bus colectivo 18.000 COP o tour operado 120.000 COP incluye todo). 9:00 AM: Llegada a Guatapé. Subida inmediata a la Roca del Peñol antes de la aglomeración. Los 740 escalones toman 30-40 minutos de subida. Vistas espectaculares. 11:30 AM: Recorrido por el pueblo de Guatapé, fotografía de zócalos pintados. 1:00 PM: Almuerzo bandeja paisa o trucha del embalse. 2:30 PM: Paseo en lancha por el embalse (30 min, 15.000 COP por persona). Kayak disponible. 4:30 PM: Regreso en bus a Medellín. 6:30 PM: Llegada Medellín. Recomendación: ir entre semana para menor afluencia. Llevar efectivo, pocos locales aceptan tarjeta."
+  },
+  {
+    "doc_id": "iti_010",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Tatacoa astronomía 2 días",
+    "texto": "DÍA 1: Salida desde Neiva a las 8 AM en carro o mototaxi (45 min, 25.000 COP). Llegada al sector rojo Los Hoyos. Caminata 2 horas por el desierto rojo (llevar mucha agua). 12 PM: Almuerzo en posada local. Descanso obligatorio entre 12 y 3 PM por calor extremo. 4 PM: Caminata al sector gris Cuzco (diferente morfología). 7 PM: Cena. 8 PM: Sesión de astronomía con telescopio en el Observatorio (15.000 COP por persona, reservar con anticipación). DÍA 2: Amanecer en el desierto (5:30 AM, temperatura agradable). Cabalgata 1.5 horas. 9 AM: Visita Museo Paleontológico en Villa Vieja. 12 PM: Regreso a Neiva. Temperatura máxima diurna: 42°C. Llevar protector solar total, sombrero, 2 litros de agua mínimo."
+  },
+  {
+    "doc_id": "iti_011",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Llanos Orientales 4 noches",
+    "texto": "DÍA 1: Vuelo Bogotá-Yopal (40 min) o carretera 5 horas. Traslado al hato ganadero en jeep 4x4 (1 hora). Bienvenida con guarapo de panela. DÍA 2: 5 AM Arreo de ganado a caballo con vaqueros llaneros. 10 AM: Avistamiento de fauna en jagüeyes (chigüiros, garzas, caimanes). 2 PM: Siesta llanera obligatoria por el calor. 5 PM: Recorrido en lancha por caño. Noche: joropo en vivo con arpa, cuatro y maracas. DÍA 3: Amanecer fotográfico en la sabana. Tour de pesca en caño. Tarde: visita a familia llanera, preparación mamona. DÍA 4: Pesca y avistamiento de anacondas (con guía). DÍA 5: Regreso Yopal, vuelo Bogotá. La mejor época: diciembre-marzo (fauna concentrada en sequía)."
+  },
+  {
+    "doc_id": "iti_012",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Villa de Leyva fin de semana",
+    "texto": "VIERNES: Salida Bogotá 6 PM en bus directo a Villa de Leyva (3 horas, 35.000 COP). Llegada noche. Instalación en hostería colonial. SÁBADO: 8 AM Desayuno típico con changua. 9 AM: Plaza Mayor y recorrido del centro histórico. 11 AM: Visita Museo Paleontológico (kronosaurio). 1 PM: Almuerzo en restaurante colonial. 3 PM: Tour en bicicleta a viñedo aledaño (degustación incluida, 45.000 COP). 7 PM: Cena con chimenea. DOMINGO: 8 AM Mercado artesanal dominical. 10 AM: Visita Casa Museo Luis Alberto Acuña. 12 PM: Almuerzo final en plaza. 2 PM: Bus regreso Bogotá. Arribo Bogotá 5 PM. Temperatura nocturna puede bajar a 5°C, llevar ropa de abrigo."
+  },
+  {
+    "doc_id": "iti_013",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Providencia 4 días",
+    "texto": "DÍA 1: Vuelo San Andrés-Providencia en avioneta (20 min, 150.000 COP ida). Instalación en posada raizal. Tarde: exploración del pueblo Old Providence. Noche: música calipso en bar local. DÍA 2: Tour snorkel en la barrera de coral (recuperación post-Iota visible). Afternoon: Pico Isabel de Torres (senderismo 2 horas hasta la cima, vista 360°). DÍA 3: Kayak de mar alrededor de la isla (medio día). Tarde: playa Manzanillo, la más tranquila. Noche: cena de langosta fresca en posada. DÍA 4: Mañana libre, playa Bahía Suroeste. Vuelo regreso San Andrés. Llevar efectivo suficiente para los 4 días: no hay cajeros. La posada incluye desayunos y cenas. Almuerzos por cuenta del viajero: 25.000-40.000 COP."
+  },
+  {
+    "doc_id": "iti_014",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Mompox colonial 3 días",
+    "texto": "DÍA 1: Llegada desde Cartagena (5 horas en lancha-bus) o Barranquilla. Instalación en casa colonial. Tarde: primera caminata por las 6 iglesias principales. Noche: cena en terraza sobre el río Magdalena. DÍA 2: Recorrido completo a pie: Real del Medio, calle 14 de Agosto, Plaza Santa Bárbara. Mañana: taller con artesano de filigrana en plata (observación del proceso). Tarde: paseo en canoa por el brazo del Magdalena (fauna de ribera). Noche: concierto de vallenato en la plaza. DÍA 3: Visita al cementerio patrimonial (arquitectura funeraria única). Tarde: regreso. La temporada alta es Semana Santa (reservar meses antes). El calor extremo hace imposible caminar entre 11 AM y 3 PM. La ciudad tiene cortes de energía frecuentes."
+  },
+  {
+    "doc_id": "iti_015",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Capurganá y Sapzurro 3 noches",
+    "texto": "DÍA 1: Vuelo Medellín-Capurganá en Satena (20 min, 350.000 COP ida). Instalación en posada. Tarde: primer snorkel en el arrecife de Capurganá. DÍA 2: Caminata Capurganá-Sapzurro (45 min por sendero de selva). En Sapzurro: playa tranquila y almuerzo en restaurante familiar. Caminata adicional hasta La Miel, frontera con Panamá (20 min). Regreso a Capurganá al atardecer. DÍA 3: Kayak de mar entre manglares. Tarde: buceo con instructor (cupo limitado, reservar antes). Noche: fogata en playa con lugareños. DÍA 4: Vuelo regreso Medellín. Checkin aeropuerto 1.5 horas antes (vuelos pequeños puntuales). Efectivo obligatorio, sin cajeros. Repelente de alta concentración para playas al atardecer."
+  },
+  {
+    "doc_id": "paq_016",
+    "categoria": "paquetes",
+    "titulo": "Tour Vallenato y Cultura Vallenata Valledupar",
+    "texto": "El paquete Valledupar y la Ruta del Vallenato incluye 3 noches en hotel en el centro histórico de la ciudad del río Guatapurí. Se visita el Festival Vallenato (si coincide con finales de abril) o el Museo del Vallenato con los acordeones más icónicos de la historia. Tour en la hacienda donde García Márquez pasó su infancia en Aracataca (2 horas desde Valledupar). Incluye clases de acordeón vallenato de 2 horas con maestro local, cena típica con mondongo y bollo limpio. Precio: 900.000 COP por persona. Transporte desde Barranquilla o Santa Marta incluido."
+  },
+  {
+    "doc_id": "paq_017",
+    "categoria": "paquetes",
+    "titulo": "Salto del Tequendama y Laguna de la Cocha",
+    "texto": "El paquete Maravillas de Cundinamarca y Nariño incluye visita al Salto del Tequendama (157 metros), uno de los saltos de agua más impresionantes de los Andes, y 2 noches en Pasto con visita a la Laguna de la Cocha, el segundo lago de agua dulce más grande de Colombia. Se incluye visita al Santuario de Las Lajas en Ipiales, construcción neogótica del siglo XIX colgada sobre el cañón del río Guáitara. Precio: 850.000 COP. Vuelo desde Bogotá no incluido. Ideal para combinar naturaleza y arquitectura colonial."
+  },
+  {
+    "doc_id": "paq_018",
+    "categoria": "paquetes",
+    "titulo": "Ruta del Libertador Simón Bolívar",
+    "texto": "La Ruta del Libertador recorre los lugares históricos más importantes de la vida de Simón Bolívar en Colombia: la Quinta de San Pedro Alejandrino en Santa Marta donde murió, el Puente de Boyacá donde se libró la batalla de Independencia en 1819, la Casa Natal de Bolívar en Caracas (con excursión a Venezuela) y los campos de batalla del Pantano de Vargas. El tour dura 5 días con guía historiador experto. Precio: 1.400.000 COP con transporte incluido entre puntos. Ideal para amantes de la historia latinoamericana."
+  },
+  {
+    "doc_id": "paq_019",
+    "categoria": "paquetes",
+    "titulo": "Cali Salsa y Sabor 3 Noches",
+    "texto": "El paquete Cali incluye 3 noches en hotel en el barrio Granada. Actividades: clases de salsa caleña con instructores del World Salsa Festival (2 sesiones de 2 horas), visita al barrio San Antonio colonial, Zoológico de Cali (uno de los mejores de Colombia), Cristo Rey en el cerro, tour gastronómico con pandebono, champús y lulada. Noche de rumba en los mejores salsódromos de Juanchito con transporte incluido. Precio: 1.100.000 COP. El mejor momento para visitar es en diciembre durante la Feria de Cali con desfile de silleteros y conciertos de salsa."
+  },
+  {
+    "doc_id": "paq_020",
+    "categoria": "paquetes",
+    "titulo": "Barranquilla Carnaval y Cultura Caribe",
+    "texto": "El paquete Barranquilla Carnaval incluye 3 noches en hotel durante el Carnaval de Barranquilla (febrero), declarado Patrimonio Oral e Inmaterial de la Humanidad por la UNESCO. Se incluyen palcos en el desfile de la Gran Parada y la Batalla de Flores, visita al Museo del Carnaval y al Museo del Caribe. Tour gastronómico con butifarra de Soledad, sancocho de guandú y limonada de coco. Precio temporada de carnaval: 1.800.000 COP. En otras épocas del año: 700.000 COP. Reservar con 6 meses de anticipación para carnaval."
+  },
+  {
+    "doc_id": "dest_016",
+    "categoria": "destinos",
+    "titulo": "Cali: capital mundial de la salsa",
+    "texto": "Cali, la tercera ciudad de Colombia, es reconocida mundialmente como la capital de la salsa. El barrio Juanchito, en la vía a Palmira, concentra los salsódromos más famosos. El Festival Mundial de Salsa en septiembre atrae a bailarines de 40 países. El barrio San Antonio conserva su arquitectura de finales del XIX con casas de tapia pintadas de colores. El Cristo Rey en el cerro de los Cristales ofrece vista panorámica de la ciudad y el Valle del Cauca. La gastronomía vallecaucana destaca el pandebono, el cholado, la champús y el sancocho de gallina. El aeropuerto Alfonso Bonilla Aragón conecta con todas las principales ciudades colombianas. El clima es cálido y seco."
+  },
+  {
+    "doc_id": "dest_017",
+    "categoria": "destinos",
+    "titulo": "Valledupar: cuna del vallenato",
+    "texto": "Valledupar, capital del departamento del Cesar, es la cuna del vallenato, género musical declarado Patrimonio Cultural Inmaterial de la Humanidad. El Festival de la Leyenda Vallenata en abril es el evento musical más importante del Caribe colombiano. El río Guatapurí, que baja de la Sierra Nevada, forma playas de arena blanca dentro de la ciudad donde los vallunos se bañan. La temperatura oscila entre 32°C y 38°C. A 60 km está Aracataca, pueblo natal de Gabriel García Márquez e inspiración para Macondo. La Guajira está a 2 horas, ofreciendo una combinación cultural única entre la tradición vallenata y la cultura wayuu."
+  },
+  {
+    "doc_id": "dest_018",
+    "categoria": "destinos",
+    "titulo": "Barranquilla: la puerta de oro de Colombia",
+    "texto": "Barranquilla es el principal puerto marítimo y fluvial de Colombia, ubicada en la desembocadura del río Magdalena en el Caribe. El Carnaval de Barranquilla, en febrero, es el segundo carnaval más grande del mundo después del de Río de Janeiro. El Museo del Caribe es el más completo de la Costa Atlántica. El mercado de Barranquilla es uno de los más extensos del país. La ciudad tiene la mayor comunidad de inmigrantes de Medio Oriente en Colombia (árabes, libaneses, palestinos) que han influenciado su gastronomía y cultura empresarial. El aeropuerto Ernesto Cortissoz tiene vuelos directos desde Miami y Ciudad de México."
+  },
+  {
+    "doc_id": "dest_019",
+    "categoria": "destinos",
+    "titulo": "Pasto y el sur de Colombia",
+    "texto": "Pasto, capital de Nariño a 2.527 metros sobre el nivel del mar, ofrece una combinación única de cultura andina e indígena. El volcán Galeras, activo, se alza sobre la ciudad como centinela permanente. La Laguna de la Cocha, a 25 km, es el segundo lago de agua dulce más grande de Colombia. En Ipiales, a 80 km de la frontera con Ecuador, el Santuario de Las Lajas es una de las construcciones más espectaculares de América, colgada sobre el cañón del río Guáitara. El Carnaval de Negros y Blancos en enero es Patrimonio de la Humanidad. La artesanía de barniz de Pasto (mopa-mopa) es única en el mundo."
+  },
+  {
+    "doc_id": "dest_020",
+    "categoria": "destinos",
+    "titulo": "La Guajira: tierra de viento y arena",
+    "texto": "La Guajira es el departamento más septentrional de Colombia y América del Sur. Cabo de la Vela y el desierto de La Tatacoa Alta son paisajes de otro mundo: médanos de arena que caen al mar Caribe. Punta Gallinas, el punto más norte de Sudamérica, tiene dunas de arena que caen directamente al mar. La cultura wayuu, el pueblo indígena más numeroso de Colombia con 400.000 personas, impregna todo el departamento con sus mochilas tejidas, su música y su cosmovisión. El flamenco rosado se concentra en la laguna de Musichi. La mejor época es diciembre a abril. Riohacha es la capital, con vuelos desde Bogotá."
+  },
+  {
+    "doc_id": "res_026",
+    "categoria": "resenas",
+    "titulo": "Cali de noche: experiencia de salsa",
+    "texto": "Fui a Cali específicamente a aprender a bailar salsa y no me arrepiento. Las clases con el instructor Johnny en la academia del barrio El Peñón fueron intensivas y efectivas: en 4 días de clases de 2 horas pasé de no saber nada a poder bailar básico en Juanchito. La noche de rumba en La Mulata fue la mejor de mi vida: los caleños bailan con una gracia natural que te hace sentir torpe pero feliz. El cholado de la tienda frente al zoológico fue el mejor antídoto para el calor. La ciudad es muy amigable y segura en zonas turísticas. Precio clases particulares: 50.000 COP por hora. Calificación: 5 de 5."
+  },
+  {
+    "doc_id": "res_027",
+    "categoria": "resenas",
+    "titulo": "La Guajira: espectacular pero exigente",
+    "texto": "El viaje a Cabo de la Vela y Punta Gallinas en La Guajira fue de los más impresionantes que he hecho pero también el más duro logísticamente. El camino en carro 4x4 por trocha destapada desde Uribia hasta Cabo de la Vela (3 horas) destruye la espalda pero vale cada sacudida cuando ves el mar Caribe chocando contra el desierto. La posada wayuu sin electricidad regular, con ducha de agua fría, es rústica pero auténtica. El pilón de azúcar y la playa del ojo del agua son únicos. Los mochilas wayuu compradas directamente a las tejedoras cuestan la mitad que en Bogotá. Llevar efectivo, mucha agua y protector solar. Calificación: 4.5 de 5."
+  },
+  {
+    "doc_id": "res_028",
+    "categoria": "resenas",
+    "titulo": "Barranquilla Carnaval: caos organizado perfecto",
+    "texto": "Vivir el Carnaval de Barranquilla fue una experiencia de inmersión cultural total. Cuatro días de desfiles, música, baile, disfraces y alegría desenfrenada. La Batalla de Flores el sábado con miles de personas en la Vía 40 es espectacular. El desfile de la Gran Parada del domingo con los trajes típicos de danza de mapalé, cumbia y porro es de una riqueza cultural impresionante. El calor es intenso: 35°C con humedad. Hidratación constante obligatoria. Los palcos organizados por la agencia fueron perfectos, con vista completa. El precio de 1.800.000 COP incluye todo y vale cada peso. Reservar con 6 meses de anticipación es imprescindible. Calificación: 5 de 5."
+  },
+  {
+    "doc_id": "res_029",
+    "categoria": "resenas",
+    "titulo": "Tour educativo Museo del Oro Bogotá",
+    "texto": "El Museo del Oro en Bogotá es uno de los mejores museos de América Latina sin ninguna duda. Las más de 55.000 piezas de orfebrería precolombina de culturas muisca, zenú, quimbaya, calima y tairona son de una perfección artística asombrosa. La Balsa Muisca, figurilla de 600 años que inspiró el mito de El Dorado, parece increíblemente moderna. El recorrido guiado de 2 horas es esencial: sin guía se pierden la mitad de los detalles históricos. El costo de entrada es 4.000 COP para colombianos, gratis los domingos. La librería del museo tiene excelentes publicaciones sobre arqueología colombiana. Calificación: 5 de 5. Imperdible en cualquier visita a Bogotá."
+  },
+  {
+    "doc_id": "res_030",
+    "categoria": "resenas",
+    "titulo": "Gastronomía llanera auténtica",
+    "texto": "La mamona o ternera a la llanera preparada en el hato es algo que todo colombiano debe comer al menos una vez. La carne se asa lentamente durante 4 horas en vara de madera verde sobre brasas de leña de los Llanos, sazonada solo con sal. El resultado es una carne tierna, jugosa y ahumada que no tiene comparación con ninguna preparación urbana. La hallaca llanera, el arroz apastelado y el café negro cerrero completaron el banquete. El pisillo de chigüiro, aunque controversialmente hecho con un roedor, tiene un sabor único que vale la pena probar al menos una vez. La hospitalidad llanera hace que la comida sepa mejor. Calificación gastronomía: 5 de 5."
+  },
+  {
+    "doc_id": "seg_011",
+    "categoria": "seguros",
+    "titulo": "Seguro para viajes en moto y bicicleta de turismo",
+    "texto": "Para ciclistas y motociclistas que realizan turismo de aventura por Colombia, el Seguro de Movilidad Activa cubre: accidentes durante el trayecto en bicicleta o motocicleta de turismo, daños al vehículo por accidente no cubiertos por el SOAT, asistencia mecánica en carretera con transporte del vehículo, gastos médicos hasta 10.000.000 COP por accidente de tránsito, evacuación médica si el accidente ocurre en zona de difícil acceso. Exclusiones: conducción sin licencia de conducción válida, infracción de normas de tránsito comprobada, terrenos no autorizados para circulación vehicular. Requiere declaración de ruta y destinos al contratar. Precio: 35.000 COP por día de cobertura."
+  },
+  {
+    "doc_id": "seg_012",
+    "categoria": "seguros",
+    "titulo": "Cobertura COVID-19 y enfermedades infecciosas en viajes",
+    "texto": "La póliza de viaje incluye cobertura para COVID-19 y otras enfermedades infecciosas: diagnóstico y tratamiento médico de COVID-19 contraído durante el viaje hasta el límite de la póliza, cuarentena obligatoria por positivo COVID-19 con extensión de alojamiento hasta 14 días adicionales cubiertos, cancelación del viaje por diagnóstico de COVID-19 hasta 72 horas antes del inicio. No cubre: cancelación por temor al contagio sin diagnóstico, cuarentena preventiva sin diagnóstico positivo, destinos con alerta sanitaria vigente declarada por el Ministerio de Salud de Colombia al momento de contratar. Aplica también para dengue, chikungunya, zika y fiebre amarilla con tratamiento documentado."
+  },
+  {
+    "doc_id": "iti_016",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario La Guajira 4 días extremo norte",
+    "texto": "DÍA 1: Llegada Riohacha. Instalación. Tarde: visita artesanas wayuu en el mercado de Riohacha. DÍA 2: 5 AM salida en 4x4 hacia Uribia (1 hora). De Uribia a Cabo de la Vela por trocha (3 horas). Pilón de azúcar, ojo del agua, playa. Noche en posada wayuu (sin electricidad, sin señal). DÍA 3: Madrugada 4 AM: excursión a Punta Gallinas (el punto más norte de Sudamérica) por dunas y costa. Regreso Cabo de la Vela tarde. DÍA 4: Regreso Uribia-Riohacha. Tarde: vuelo regreso. Llevar: efectivo para todo el viaje (sin cajeros en Cabo de la Vela), 5 litros de agua por persona por día, protector solar 100+, ropa liviana y bufanda para el viento, pastillas para el estómago, linterna. No llevar objetos de valor."
+  },
+  {
+    "doc_id": "iti_017",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Cali salsa 3 noches",
+    "texto": "DÍA 1: Llegada aeropuerto Alfonso Bonilla. Instalación en hotel Granada. Tarde: barrio San Antonio y mirador Cristo Rey (si el tiempo lo permite). Noche: primer contacto con la salsa caleña en Tin Tin Deo. DÍA 2: 9 AM: Clases de salsa sesión 1 (2 horas). 12 PM: Almuerzo en galería Alameda (cholado y empanadas vallecaucanas). 3 PM: Zoológico de Cali (el mejor del país con más de 2.500 animales). 8 PM: Noche de rumba en Juanchito. DÍA 3: 9 AM Clases de salsa sesión 2. Tarde libre shopping en C.C. Unicentro. 9 PM: Despedida en La Mulata o Portobelo. DÍA 4: Vuelo de regreso. Clima: 25°C constante, sin lluvia severa. Aeropuerto a 17 km del centro."
+  },
+  {
+    "doc_id": "iti_018",
+    "categoria": "itinerarios",
+    "titulo": "Itinerario Pasto y Las Lajas 3 días",
+    "texto": "DÍA 1: Vuelo Bogotá-Pasto (50 min). Instalación. Tarde: mirador volcán Galeras (con guía certificado, el volcán tiene restricciones de acceso). Noche: gastronomía pastusa (cuy asado, papas chorreadas, sopa de maní). DÍA 2: 7 AM salida a Laguna de la Cocha (25 km). Tour en bote por la laguna, isla La Corota (santuario de flora). Tarde: regreso a Pasto. Noche: barrio colonial centro. DÍA 3: 6 AM salida a Ipiales (80 km). Santuario de Las Lajas: tour 2 horas. Almuerzo en el cañón del Guáitara. Regreso Pasto. Vuelo regreso Bogotá tarde. Temperatura en Pasto: 14-18°C. Llevar ropa de abrigo permanentemente. Altitud 2.527 metros: posible soroche primer día."
+  }
+]
