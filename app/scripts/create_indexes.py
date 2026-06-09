@@ -96,10 +96,32 @@ async def main() -> None:
         ]
     }
 
+    multimedia_clip_index_payload = {
+        "createSearchIndexes": "multimedia_clip",
+        "indexes": [
+            {
+                "name": settings.mongodb_multimedia_clip_vector_index,
+                "definition": {
+                    "fields": [
+                        {
+                            "type": "vector",
+                            "path": "embedding",
+                            "numDimensions": settings.clip_embedding_dim,
+                            "similarity": "cosine"
+                        },
+                        {"type": "filter", "path": "destino_id"},
+                        {"type": "filter", "path": "nombre_destino"}
+                    ]
+                }
+            }
+        ]
+    }
+
     # Despliegue de Índices Vectoriales mediante comandos de base de datos crudos (db.command)
     for payload, collection_name in [
         (chunks_index_payload, "chunks"),
-        (multimedia_index_payload, "multimedia")
+        (multimedia_index_payload, "multimedia"),
+        (multimedia_clip_index_payload, "multimedia_clip"),
     ]:
         try:
             logger.info("Enviando comando Atlas Vector Search para la colección: %s...", collection_name)

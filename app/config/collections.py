@@ -11,6 +11,7 @@ COLLECTIONS: tuple[str, ...] = (
     "resena",
     "seguroViaje",
     "multimedia",
+    "multimedia_clip",
     "chunks",
     "consultas_rag",
     "evaluaciones",
@@ -18,4 +19,5 @@ COLLECTIONS: tuple[str, ...] = (
 
 VECTOR_COLLECTION = "chunks"
 MULTIMEDIA_COLLECTION = "multimedia"
+MULTIMEDIA_CLIP_COLLECTION = "multimedia_clip"
 RAG_QUERIES_COLLECTION = "consultas_rag"

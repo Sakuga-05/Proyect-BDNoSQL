@@ -46,6 +46,7 @@ class MongoDatabase:
         await db.chunks.create_index([("doc_id", ASCENDING), ("estrategia_chunking", ASCENDING)])
         await db.chunks.create_index([("modelo", ASCENDING)])
         await db.multimedia.create_index([("tipo", ASCENDING), ("destino_id", ASCENDING)])
+        await db.multimedia_clip.create_index([("destino_id", ASCENDING)])
         logger.info("Colecciones e indices base verificados")
 
 

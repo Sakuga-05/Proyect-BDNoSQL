@@ -28,9 +28,18 @@ class Settings(BaseSettings):
         default="multimedia_vector_index",
         alias="MONGODB_MULTIMEDIA_VECTOR_INDEX",
     )
+    mongodb_multimedia_clip_vector_index: str = Field(
+        default="multimedia_clip_vector_index",
+        alias="MONGODB_MULTIMEDIA_CLIP_VECTOR_INDEX",
+    )
 
     embedding_model: str = Field(default="all-MiniLM-L6-v2", alias="EMBEDDING_MODEL")
     embedding_dim: int = Field(default=384, alias="EMBEDDING_DIM")
+    clip_embedding_model: str = Field(
+        default="sentence-transformers/clip-ViT-B-32",
+        alias="CLIP_EMBEDDING_MODEL",
+    )
+    clip_embedding_dim: int = Field(default=512, alias="CLIP_EMBEDDING_DIM")
 
     gemini_api_key: str | None = Field(default=None, alias="GEMINI_API_KEY")
     gemini_model: str = Field(default="gemini-2.5-flash", alias="GEMINI_MODEL")
