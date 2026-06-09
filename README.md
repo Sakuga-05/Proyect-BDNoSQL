@@ -18,8 +18,8 @@ python -m app.scripts.init_atlas
 python -m app.scripts.generate_dataset
 python -m app.scripts.create_indexes
 python -m app.scripts.generate_embeddings
-python -m app.scripts.generate_multimedia_embeddings
 python -m app.scripts.rebuild_multimedia
+python -m app.scripts.generate_clip_embeddings
 ```
 
 ## Endpoints

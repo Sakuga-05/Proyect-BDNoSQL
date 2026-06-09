@@ -1,3 +1,4 @@
+# multimedia_clip_service.py
 import math
 from PIL.Image import Image
 
