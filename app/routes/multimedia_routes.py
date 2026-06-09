@@ -10,7 +10,7 @@ from app.controllers.multimedia_controller import MultimediaController
 from app.controllers.multimedia_clip_controller import MultimediaClipController
 from app.schemas.multimedia import MultimediaSearchRequest, MultimediaSearchResponse
 from app.schemas.multimedia_clip import (
-    MultimediaClipSearchRequest,
+    MultimediaClipTextSearchRequest,
     MultimediaClipSearchResponse,
 )
 
@@ -46,7 +46,7 @@ async def multimedia_image_search(
 
 @router.post("/text-search-clip", response_model=MultimediaClipSearchResponse, status_code=status.HTTP_200_OK)
 async def multimedia_text_search_clip(
-    request: MultimediaClipSearchRequest,
+    request: MultimediaClipTextSearchRequest,
     controller: MultimediaClipController = Depends(get_multimedia_clip_controller),
 ) -> MultimediaClipSearchResponse:
     return await controller.text_search(query=request.query, limit=request.limit)
