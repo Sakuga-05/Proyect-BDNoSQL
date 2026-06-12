@@ -1,4 +1,6 @@
 # app/routes/multimedia_routes.py
+import io
+
 from fastapi import APIRouter, Depends, File, Form, HTTPException, UploadFile, status
 from PIL import Image, UnidentifiedImageError
 
@@ -6,12 +8,12 @@ from app.config.dependencies import (
     get_multimedia_clip_controller,
     get_multimedia_controller,
 )
-from app.controllers.multimedia_controller import MultimediaController
 from app.controllers.multimedia_clip_controller import MultimediaClipController
+from app.controllers.multimedia_controller import MultimediaController
 from app.schemas.multimedia import MultimediaSearchRequest, MultimediaSearchResponse
 from app.schemas.multimedia_clip import (
-    MultimediaClipTextSearchRequest,
     MultimediaClipSearchResponse,
+    MultimediaClipTextSearchRequest,
 )
 
 router = APIRouter(prefix="/multimedia", tags=["multimedia"])
@@ -31,10 +33,14 @@ async def multimedia_image_search(
     limit: int = Form(8),
     controller: MultimediaClipController = Depends(get_multimedia_clip_controller),
 ) -> MultimediaClipSearchResponse:
+    """Búsqueda imagen → imagen usando embeddings CLIP (colección multimedia_clip)."""
     try:
-        file.file.seek(0)
-        with Image.open(file.file) as image_obj:
-            image = image_obj.convert("RGB")
+        content = await file.read()
+        # Usar contexto de bytes para no dejar el file descriptor abierto
+        with Image.open(io.BytesIO(content)) as img:
+            image = img.convert("RGB")
+            # Forzar carga en memoria antes de cerrar el contexto
+            image.load()
     except UnidentifiedImageError as exc:
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
@@ -44,9 +50,14 @@ async def multimedia_image_search(
     return await controller.image_search(image=image, limit=limit)
 
 
-@router.post("/text-search-clip", response_model=MultimediaClipSearchResponse, status_code=status.HTTP_200_OK)
+@router.post(
+    "/text-search-clip",
+    response_model=MultimediaClipSearchResponse,
+    status_code=status.HTTP_200_OK,
+)
 async def multimedia_text_search_clip(
     request: MultimediaClipTextSearchRequest,
     controller: MultimediaClipController = Depends(get_multimedia_clip_controller),
 ) -> MultimediaClipSearchResponse:
+    """Búsqueda texto → imagen usando embeddings CLIP (colección multimedia_clip)."""
     return await controller.text_search(query=request.query, limit=request.limit)

@@ -1,5 +1,23 @@
+# app/utils/multimedia_assets.py
+"""
+Utilidades para gestión de assets multimedia locales.
+
+Estructura esperada en disco:
+  app/static/img/
+  ├── Cartagena/
+  │   ├── cartagena1.jpeg
+  │   └── cartagena2.jpg
+  ├── San Andrés/        ← espacios y tildes permitidos, iguales al nombre en MongoDB
+  │   └── sanandres1.jpg
+  └── Villa de Leyva/
+      └── villadeleyva1.jpg
+
+IMPORTANTE: El nombre de la carpeta debe coincidir EXACTAMENTE con el campo
+'nombre' del documento de destino en MongoDB.
+"""
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 from bson import ObjectId
 
@@ -10,6 +28,11 @@ STATIC_IMG_DIR = Path(__file__).resolve().parents[1] / "static" / "img"
 
 
 def iter_destination_images(static_img_dir: Path = STATIC_IMG_DIR) -> list[tuple[str, Path]]:
+    """Retorna lista de (nombre_destino, path_imagen) para todas las imágenes locales.
+
+    El nombre_destino es exactamente el nombre de la carpeta, que debe coincidir
+    con el campo 'nombre' en la colección 'destino' de MongoDB.
+    """
     if not static_img_dir.exists():
         return []
 
@@ -22,10 +45,24 @@ def iter_destination_images(static_img_dir: Path = STATIC_IMG_DIR) -> list[tuple
 
 
 def build_static_url(destination_name: str, image_path: Path) -> str:
-    return f"/static/img/{destination_name}/{image_path.name}"
+    """Genera la URL pública de una imagen servida por FastAPI StaticFiles.
+
+    Codifica correctamente caracteres especiales (espacios, tildes, ñ)
+    para que la URL sea válida en HTTP.
+
+    Ejemplo:
+      destination_name = "San Andrés"
+      image_path.name  = "sanandres1.jpg"
+      → "/static/img/San%20Andr%C3%A9s/sanandres1.jpg"
+    """
+    # quote() codifica espacios y tildes pero preserva '/'
+    encoded_dest = quote(destination_name, safe="")
+    encoded_file = quote(image_path.name, safe="")
+    return f"/static/img/{encoded_dest}/{encoded_file}"
 
 
 def build_visual_description(destination: dict[str, Any], image_index: int) -> str:
+    """Construye una descripción textual de la imagen para indexación semántica."""
     destination_name = str(destination.get("nombre", "Destino turistico"))
     category = destination.get("categoria")
     tags = ", ".join(destination.get("tags") or [])
@@ -44,6 +81,7 @@ def build_multimedia_document(
     image_path: Path,
     image_index: int,
 ) -> dict[str, Any]:
+    """Construye el documento a insertar en la colección 'multimedia'."""
     destination_name = str(destination["nombre"])
     tags = list(destination.get("tags") or [])
     destination_id = destination.get("_id")

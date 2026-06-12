@@ -1,5 +1,6 @@
-# multimedia_clip_service.py
+# app/services/multimedia_clip_service.py
 import math
+
 from PIL.Image import Image
 
 from app.config.settings import Settings
@@ -49,9 +50,10 @@ class MultimediaClipService:
         if len(vectors) == 1:
             query_vector = vectors[0]
         else:
-            query_vector = self._normalize_vector(
-                [sum(values) / len(vectors) for values in zip(*vectors)]
-            )
+            # Promedio elemento-a-elemento, luego normalizar
+            dim = len(vectors[0])
+            averaged = [sum(v[i] for v in vectors) / len(vectors) for i in range(dim)]
+            query_vector = self._normalize_vector(averaged)
 
         return await self._search_vector(query_vector, query=query, limit=limit)
 
@@ -68,24 +70,30 @@ class MultimediaClipService:
             num_candidates=self._settings.vector_num_candidates,
         )
 
-        return MultimediaClipSearchResponse(
-            query=query,
-            total=len(raw_results),
-            results=[
+        results = []
+        for document in raw_results:
+            url = document.get("url", "")
+            # Construir URL absoluta si es relativa (empieza con /static/)
+            # El frontend debe usar la base URL del servidor
+            results.append(
                 MultimediaClipSearchResult(
                     id=serialize_mongo_value(document.get("_id")),
-                    url=document.get("url", ""),
-                    nombre_destino=document.get("nombre_destino", ""),
+                    url=url,
+                    nombre_destino=document.get("nombre_destino") or "",
                     descripcion_visual=document.get("descripcion_visual"),
                     score=document.get("score"),
                 )
-                for document in raw_results
-            ],
+            )
+
+        return MultimediaClipSearchResponse(
+            query=query,
+            total=len(results),
+            results=results,
         )
 
     @staticmethod
     def _normalize_vector(vector: list[float]) -> list[float]:
-        magnitude = math.sqrt(sum(float(value) ** 2 for value in vector))
+        magnitude = math.sqrt(sum(v ** 2 for v in vector))
         if magnitude == 0.0:
             return vector
-        return [float(value) / magnitude for value in vector]
+        return [v / magnitude for v in vector]
