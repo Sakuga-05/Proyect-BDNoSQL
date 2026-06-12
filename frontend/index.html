@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agencia de Viajes RAG</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-icon">✈</span>
+        <div class="brand-text">
+          <h1>Agencia de Viajes RAG</h1>
+          <p>Búsqueda semántica · IA generativa · Exploración multimodal</p>
+        </div>
+      </div>
+      <div class="api-status" id="apiStatus">
+        <span class="status-dot" id="statusDot"></span>
+        <span id="statusLabel">Conectando...</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tab-nav">
+    <div class="tab-nav-inner">
+      <button class="tab-btn active" data-tab="rag">🤖 Asistente IA</button>
+      <button class="tab-btn" data-tab="search">🔍 Búsqueda Semántica</button>
+      <button class="tab-btn" data-tab="multimedia">🖼️ Multimedia</button>
+      <button class="tab-btn" data-tab="clip-text">✍️ CLIP Texto</button>
+      <button class="tab-btn" data-tab="clip-image">📷 CLIP Imagen</button>
+      <button class="tab-btn" data-tab="multimodal">🔀 Multimodal</button>
+      <button class="tab-btn" data-tab="chunking">⚙️ Chunking</button>
+    </div>
+  </nav>
+
+  <main class="content">
+
+    <!-- ══════════════════════ RAG ══════════════════════ -->
+    <section class="panel active" id="tab-rag">
+      <div class="panel-head">
+        <h2>Asistente IA — RAG</h2>
+        <p>Haz una pregunta sobre destinos o paquetes. La IA recupera fragmentos relevantes con búsqueda vectorial y genera una respuesta usando Gemini.</p>
+      </div>
+      <div class="panel-body">
+        <form id="ragForm" class="query-form">
+          <div class="field">
+            <label for="ragQuestion">Pregunta</label>
+            <textarea id="ragQuestion" rows="3" placeholder="¿Cuáles son los mejores destinos para ecoturismo en Colombia?" required></textarea>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="ragLimit">Fragmentos (1–10)</label>
+              <input type="number" id="ragLimit" value="5" min="1" max="10">
+            </div>
+            <div class="field">
+              <label for="ragStrategy">Estrategia de chunking</label>
+              <select id="ragStrategy">
+                <option value="sentence-aware">Sentence-Aware</option>
+                <option value="fixed-size">Fixed-Size</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-ai">🤖 Generar respuesta</button>
+        </form>
+        <div class="results" id="ragResults"></div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════ BÚSQUEDA SEMÁNTICA ══════════════════════ -->
+    <section class="panel" id="tab-search">
+      <div class="panel-head">
+        <h2>Búsqueda Semántica</h2>
+        <p>Busca en los fragmentos de texto indexados usando similitud vectorial con embeddings de 384 dimensiones (all-MiniLM-L6-v2).</p>
+      </div>
+      <div class="panel-body">
+        <form id="searchForm" class="query-form">
+          <div class="field">
+            <label for="searchQuery">Consulta</label>
+            <input type="text" id="searchQuery" placeholder="Ej: playas con aguas cristalinas en el Caribe colombiano" required>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="searchLimit">Resultados (1–20)</label>
+              <input type="number" id="searchLimit" value="5" min="1" max="20">
+            </div>
+            <div class="field">
+              <label for="searchStrategy">Estrategia</label>
+              <select id="searchStrategy">
+                <option value="">Todas</option>
+                <option value="sentence-aware">Sentence-Aware</option>
+                <option value="fixed-size">Fixed-Size</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="searchFilters">Filtros MongoDB (JSON, opcional)</label>
+            <input type="text" id="searchFilters" placeholder='{"metadata.modelo": "all-MiniLM-L6-v2"}'>
+          </div>
+          <button type="submit" class="btn btn-primary">🔍 Buscar</button>
+        </form>
+        <div class="results" id="searchResults"></div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════ MULTIMEDIA ══════════════════════ -->
+    <section class="panel" id="tab-multimedia">
+      <div class="panel-head">
+        <h2>Búsqueda Multimedia</h2>
+        <p>Encuentra imágenes y videos relacionados usando embeddings de texto. Filtra por tipo de contenido o destino.</p>
+      </div>
+      <div class="panel-body">
+        <form id="multimediaForm" class="query-form">
+          <div class="field">
+            <label for="multimediaQuery">Consulta</label>
+            <input type="text" id="multimediaQuery" placeholder="Ej: selva amazónica, cascadas y biodiversidad" required>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="multimediaLimit">Resultados (1–30)</label>
+              <input type="number" id="multimediaLimit" value="8" min="1" max="30">
+            </div>
+            <div class="field">
+              <label for="multimediaTipo">Tipo de media</label>
+              <select id="multimediaTipo">
+                <option value="">Todos</option>
+                <option value="image">Imágenes</option>
+                <option value="video">Videos</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">🖼️ Buscar multimedia</button>
+        </form>
+        <div class="results" id="multimediaResults"></div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════ CLIP TEXTO ══════════════════════ -->
+    <section class="panel" id="tab-clip-text">
+      <div class="panel-head">
+        <h2>Búsqueda CLIP — Texto</h2>
+        <p>Usa el modelo CLIP (ViT-B-32, 512 dims) para encontrar imágenes visualmente similares a una descripción textual.</p>
+      </div>
+      <div class="panel-body">
+        <form id="clipTextForm" class="query-form">
+          <div class="field">
+            <label for="clipTextQuery">Descripción visual</label>
+            <input type="text" id="clipTextQuery" placeholder="Ej: ciudad colonial con catedral colorida al atardecer" required>
+          </div>
+          <div class="field">
+            <label for="clipTextLimit">Resultados (1–30)</label>
+            <input type="number" id="clipTextLimit" value="8" min="1" max="30">
+          </div>
+          <button type="submit" class="btn btn-primary">✍️ Buscar con CLIP</button>
+        </form>
+        <div class="results" id="clipTextResults"></div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════ CLIP IMAGEN ══════════════════════ -->
+    <section class="panel" id="tab-clip-image">
+      <div class="panel-head">
+        <h2>Búsqueda CLIP — Imagen</h2>
+        <p>Sube una imagen de referencia y el modelo CLIP encontrará destinos visualmente similares en la base de datos.</p>
+      </div>
+      <div class="panel-body">
+        <form id="clipImageForm" class="query-form">
+          <div class="field">
+            <label>Imagen de referencia</label>
+            <div class="dropzone" id="clipDropzone">
+              <input type="file" id="clipImageFile" accept="image/*" required>
+              <div class="dropzone-body" id="clipDropzoneBody">
+                <div class="dropzone-icon">📷</div>
+                <p>Arrastra una imagen o <span class="link-text">haz clic para seleccionar</span></p>
+                <p class="hint">JPG · PNG · WEBP</p>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label for="clipImageLimit">Resultados (1–30)</label>
+            <input type="number" id="clipImageLimit" value="8" min="1" max="30">
+          </div>
+          <button type="submit" class="btn btn-primary">📷 Buscar similares</button>
+        </form>
+        <div class="results" id="clipImageResults"></div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════ MULTIMODAL ══════════════════════ -->
+    <section class="panel" id="tab-multimodal">
+      <div class="panel-head">
+        <h2>Búsqueda Multimodal</h2>
+        <p>Combina texto e imagen para una búsqueda más precisa usando CLIP. Puedes usar uno o ambos a la vez.</p>
+      </div>
+      <div class="panel-body">
+        <form id="multimodalForm" class="query-form">
+          <div class="field">
+            <label for="multimodalQuery">Texto (opcional)</label>
+            <input type="text" id="multimodalQuery" placeholder="Ej: playa con palmeras y aguas turquesas">
+          </div>
+          <div class="field">
+            <label>Imagen (opcional)</label>
+            <div class="dropzone" id="multimodalDropzone">
+              <input type="file" id="multimodalFile" accept="image/*">
+              <div class="dropzone-body" id="multimodalDropzoneBody">
+                <div class="dropzone-icon">🔀</div>
+                <p>Arrastra una imagen o <span class="link-text">haz clic para seleccionar</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label for="multimodalLimit">Resultados (1–30)</label>
+            <input type="number" id="multimodalLimit" value="8" min="1" max="30">
+          </div>
+          <button type="submit" class="btn btn-primary">🔀 Búsqueda multimodal</button>
+        </form>
+        <div class="results" id="multimodalResults"></div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════ CHUNKING ══════════════════════ -->
+    <section class="panel" id="tab-chunking">
+      <div class="panel-head">
+        <h2>Comparación de Chunking</h2>
+        <p>Compara cómo las estrategias <strong>fixed-size</strong> y <strong>sentence-aware</strong> fragmentan un texto. Opcionalmente persiste los chunks en MongoDB.</p>
+      </div>
+      <div class="panel-body">
+        <form id="chunkingForm" class="query-form">
+          <div class="field">
+            <label for="chunkingDocId">ID del documento</label>
+            <input type="text" id="chunkingDocId" placeholder="Ej: destino-cartagena-2024" required>
+          </div>
+          <div class="field">
+            <label for="chunkingText">Texto a fragmentar</label>
+            <textarea id="chunkingText" rows="6" placeholder="Pega aquí el texto que quieres analizar y comparar entre estrategias de chunking..." required></textarea>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label>Estrategias</label>
+              <div class="check-group">
+                <label class="check-label"><input type="checkbox" id="stratFixed" checked> Fixed-Size</label>
+                <label class="check-label"><input type="checkbox" id="stratSentence" checked> Sentence-Aware</label>
+              </div>
+            </div>
+            <div class="field field-end">
+              <label class="check-label check-persist">
+                <input type="checkbox" id="chunkingPersist">
+                <span>Guardar en base de datos</span>
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">⚙️ Comparar estrategias</button>
+        </form>
+        <div class="results" id="chunkingResults"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

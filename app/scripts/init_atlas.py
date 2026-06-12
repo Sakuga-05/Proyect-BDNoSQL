@@ -44,9 +44,23 @@ async def create_vector_indexes() -> None:
         ]
     }
 
+    multimedia_clip_definition = {
+        "fields": [
+            {
+                "type": "vector",
+                "path": "embedding",
+                "numDimensions": settings.clip_embedding_dim,
+                "similarity": "cosine",
+            },
+            {"type": "filter", "path": "destino_id"},
+            {"type": "filter", "path": "nombre_destino"},
+        ]
+    }
+
     for collection_name, index_name, definition in (
         ("chunks", settings.mongodb_vector_index, chunk_definition),
         ("multimedia", settings.mongodb_multimedia_vector_index, multimedia_definition),
+        ("multimedia_clip", settings.mongodb_multimedia_clip_vector_index, multimedia_clip_definition),
     ):
         try:
             await db[collection_name].create_search_index(
