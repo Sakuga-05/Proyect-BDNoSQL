@@ -1,0 +1,86 @@
+.form-panel {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  margin-bottom: 18px;
+  box-shadow: var(--shadow);
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+}
+
+.field label {
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 1px solid #cbd9df;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: white;
+  color: var(--ink);
+}
+
+textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.checks {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.check {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  font-weight: 700;
+}
+
+.check input {
+  width: auto;
+}
+
+.btn {
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  background: var(--ocean);
+  color: white;
+  font-weight: 700;
+}
+
+.btn.secondary {
+  background: var(--nature);
+}
+
+.btn.ghost {
+  background: var(--sky);
+  color: var(--ocean-dark);
+}
+
+.examples {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.example {
+  border: 1px solid var(--line);
+  background: var(--sky);
+  color: var(--ocean-dark);
+  border-radius: 999px;
+  padding: 6px 10px;
+}

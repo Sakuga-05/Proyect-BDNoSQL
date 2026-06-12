@@ -1,0 +1,75 @@
+.hero-band {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 18px;
+  align-items: stretch;
+  margin-bottom: 22px;
+}
+
+.intro-panel {
+  background: linear-gradient(135deg, var(--ocean-dark), var(--ocean));
+  color: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+
+.intro-panel h2 {
+  margin: 0 0 8px;
+  font-size: 1.8rem;
+}
+
+.intro-panel p {
+  margin: 0;
+  color: #e2fbff;
+  max-width: 760px;
+}
+
+.quick-panel {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+.grid.stats {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.grid.cards {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.grid.two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.result-layout {
+  display: grid;
+  gap: 16px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+  align-items: end;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.toolbar > * {
+  flex: 1 1 180px;
+}
+
+@media (max-width: 760px) {
+  .hero-band,
+  .grid.two {
+    grid-template-columns: 1fr;
+  }
+}

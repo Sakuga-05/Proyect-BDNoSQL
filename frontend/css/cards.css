@@ -1,0 +1,71 @@
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 14px rgba(23, 33, 43, 0.05);
+}
+
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+}
+
+.card p {
+  margin: 0 0 10px;
+  color: var(--muted);
+}
+
+.stat-card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.stat-value {
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 800;
+  color: var(--ocean-dark);
+}
+
+.stat-label {
+  margin-top: 6px;
+  color: var(--muted);
+}
+
+.image-card {
+  overflow: hidden;
+  padding: 0;
+}
+
+.image-card img,
+.preview-image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  background: var(--sky);
+}
+
+.image-card .body {
+  padding: 14px;
+}
+
+.meta-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.chunk-preview {
+  border-left: 4px solid var(--ocean);
+  padding-left: 12px;
+}
+
+.source-card {
+  background: #fbfeff;
+}

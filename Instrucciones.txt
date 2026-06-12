@@ -1,0 +1,321 @@
+Analiza completamente el proyecto backend Proyect-BDNoSQL antes de escribir una sola línea de frontend.
+
+OBJETIVO
+
+Construir un frontend completo para demostrar todas las funcionalidades del proyecto de turismo basado en MongoDB Atlas, Vector Search, RAG, búsqueda multimodal y embeddings.
+
+IMPORTANTE:
+
+NO generar React.
+NO generar Angular.
+NO generar Vue.
+NO generar Bootstrap.
+
+Utilizar únicamente:
+
+* HTML5
+* CSS3
+* JavaScript Vanilla (ES6+)
+
+La intención es mantener el frontend simple, portable y fácil de explicar en una sustentación académica.
+
+─────────────────────────────────────
+
+PRIMER PASO OBLIGATORIO
+
+Analizar TODO el backend:
+
+* app/main.py
+* app/routes/*
+* app/controllers/*
+* app/services/*
+* app/schemas/*
+* app/models/*
+* app/repositories/*
+
+Identificar:
+
+1. Todos los endpoints disponibles.
+2. Método HTTP.
+3. Request Body.
+4. Response.
+5. Casos de uso.
+
+Generar primero un mapa interno de APIs antes de construir el frontend.
+
+NO asumir nombres de endpoints.
+
+Leerlos del código.
+
+─────────────────────────────────────
+
+OBJETIVO DEL FRONTEND
+
+El frontend debe permitir demostrar:
+
+1. Consulta de destinos.
+2. Consulta de paquetes turísticos.
+3. Búsqueda vectorial texto → texto.
+4. Búsqueda multimedia texto → imagen.
+5. Búsqueda imagen → imagen usando CLIP.
+6. Búsqueda multimodal.
+7. Comparación de chunking.
+8. Pruebas RAG.
+9. Visualización de resultados.
+10. Visualización de imágenes almacenadas en static/img.
+
+─────────────────────────────────────
+
+ESTRUCTURA DEL PROYECTO
+
+Crear:
+
+frontend/
+
+├── index.html
+├── css/
+│   ├── main.css
+│   ├── layout.css
+│   ├── cards.css
+│   └── forms.css
+├── js/
+│   ├── api.js
+│   ├── ui.js
+│   ├── search.js
+│   ├── multimedia.js
+│   ├── clip.js
+│   ├── rag.js
+│   └── chunking.js
+├── pages/
+│   ├── destinos.html
+│   ├── paquetes.html
+│   ├── rag.html
+│   ├── multimedia.html
+│   ├── clip.html
+│   ├── multimodal.html
+│   └── chunking.html
+└── assets/
+
+─────────────────────────────────────
+
+DISEÑO
+
+Tema turístico moderno.
+
+Colores:
+
+* Azul océano
+* Verde naturaleza
+* Blanco
+
+Diseño responsive.
+
+Sidebar de navegación.
+
+Header superior.
+
+Cards para resultados.
+
+Loader mientras llegan respuestas.
+
+Mensajes de error amigables.
+
+─────────────────────────────────────
+
+PÁGINA INICIO
+
+Mostrar:
+
+* Total destinos
+* Total paquetes
+* Total imágenes
+* Total reseñas
+
+Consumir APIs reales.
+
+No usar datos simulados.
+
+─────────────────────────────────────
+
+PÁGINA DESTINOS
+
+Listar destinos.
+
+Mostrar:
+
+* nombre
+* categoría
+* descripción
+* imágenes asociadas
+
+Si existe endpoint de detalle:
+
+Agregar botón:
+
+"Ver más"
+
+─────────────────────────────────────
+
+PÁGINA PAQUETES
+
+Mostrar:
+
+* título
+* precio
+* duración
+* tipo
+* descripción
+
+Filtros:
+
+* tipo
+* precio
+
+─────────────────────────────────────
+
+PÁGINA BÚSQUEDA VECTORIAL TEXTO → TEXTO
+
+Formulario:
+
+Consulta:
+
+Ejemplos:
+
+"playas del caribe"
+"aventura extrema"
+"destinos para parejas"
+
+Consumir endpoint real de búsqueda vectorial.
+
+Mostrar:
+
+* score
+* documento encontrado
+* fragmento
+
+─────────────────────────────────────
+
+PÁGINA TEXTO → IMAGEN
+
+Consumir endpoint multimedia search.
+
+Campo:
+
+Consulta textual.
+
+Ejemplos:
+
+"playas cristalinas"
+"montañas"
+"cultura cafetera"
+
+Mostrar:
+
+* imagen
+* score
+* descripción
+
+Las imágenes deben cargarse usando las rutas reales almacenadas en MongoDB.
+
+─────────────────────────────────────
+
+PÁGINA IMAGEN → IMAGEN (CLIP)
+
+Permitir seleccionar una imagen local.
+
+Subir al endpoint correspondiente.
+
+Mostrar:
+
+* imagen original
+* imágenes similares encontradas
+* score
+
+Usar previews visuales.
+
+─────────────────────────────────────
+
+PÁGINA MULTIMODAL
+
+Demostrar búsqueda multimodal.
+
+Mostrar:
+
+* consulta
+* resultados texto
+* resultados imágenes
+
+Todo en la misma vista.
+
+─────────────────────────────────────
+
+PÁGINA RAG
+
+Formulario:
+
+Pregunta al sistema turístico.
+
+Ejemplos:
+
+"¿Cuál es el mejor destino para luna de miel?"
+"¿Qué destinos tienen actividades extremas?"
+"¿Dónde puedo practicar buceo?"
+
+Mostrar:
+
+* contexto recuperado
+* respuesta generada
+* fuentes utilizadas
+
+─────────────────────────────────────
+
+PÁGINA CHUNKING
+
+Consumir endpoint compare.
+
+Permitir:
+
+* escribir texto
+* elegir estrategias
+
+Mostrar:
+
+* número de chunks
+* promedio caracteres
+* previews
+
+Visualizar diferencias entre:
+
+* fixed-size
+* sentence-aware
+
+─────────────────────────────────────
+
+REQUISITOS DE CÓDIGO
+
+* Código limpio.
+* Modular.
+* Comentado.
+* Sin duplicaciones.
+* Fetch API.
+* Async/Await.
+* Manejo de errores.
+* Configuración centralizada de URLs backend.
+
+─────────────────────────────────────
+
+REQUISITOS DE ENTREGA
+
+Generar:
+
+1. Estructura completa de carpetas.
+2. Todos los HTML.
+3. Todos los CSS.
+4. Todos los JS.
+5. Instrucciones de ejecución.
+
+No dejar archivos vacíos.
+
+Todo debe quedar funcional contra el backend existente.
+
+Analizar primero el backend y adaptar el frontend a las rutas reales encontradas.

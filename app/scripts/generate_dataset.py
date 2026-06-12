@@ -130,6 +130,68 @@ DESTINOS_DATA = [
 
 TIPOS_PAQUETE = ["Aventura", "Romántico", "Familiar", "Premium", "Económico"]
 
+DESTINO_DESCRIPCION_EXTRA = {
+    "playa": (
+        " El destino combina descanso, recorridos culturales y experiencias costeras pensadas para distintos perfiles de viajero. "
+        "Durante la visita es posible alternar mañanas de playa con caminatas por zonas históricas, salidas gastronómicas, navegación "
+        "en aguas tranquilas y espacios para fotografía al atardecer. La operación turística suele apoyarse en guías locales, alojamientos "
+        "cercanos a los principales puntos de interés y transporte coordinado para reducir tiempos muertos entre actividades. También es "
+        "un lugar apropiado para planes familiares, escapadas románticas y viajes de desconexión, porque ofrece servicios flexibles, clima "
+        "cálido y una oferta constante de restaurantes, artesanías y actividades acuáticas. Para un itinerario completo se recomienda incluir "
+        "momentos de exploración guiada, pausas de descanso, degustaciones de cocina regional y una explicación del contexto natural y cultural "
+        "que hace especial a la comunidad anfitriona."
+    ),
+    "ciudad": (
+        " La experiencia urbana permite construir itinerarios densos y variados, con museos, barrios tradicionales, corredores gastronómicos, "
+        "miradores, espacios de innovación y programación cultural durante todo el año. Es un destino ideal para viajeros que quieren entender "
+        "la vida cotidiana de Colombia desde sus contrastes: arquitectura histórica, movilidad moderna, mercados populares, galerías de arte, "
+        "cafés de especialidad y vida nocturna organizada. Los paquetes pueden combinar recorridos patrimoniales, talleres culinarios, visitas "
+        "a emprendimientos locales y traslados privados o públicos según el presupuesto. Además, la ciudad funciona muy bien como punto de "
+        "conexión para viajes de negocios, escapadas cortas y experiencias educativas. Un buen plan debe reservar tiempo para conversar con "
+        "guías locales, probar platos representativos, caminar zonas seguras de alto valor cultural y contextualizar la transformación social "
+        "que ha marcado el crecimiento turístico del destino."
+    ),
+    "naturaleza": (
+        " La riqueza natural del destino favorece rutas de observación, senderismo, educación ambiental y contacto respetuoso con comunidades "
+        "locales. Los recorridos se diseñan mejor con grupos pequeños, guías certificados y tiempos suficientes para interpretar paisajes, "
+        "flora, fauna, tradiciones productivas y medidas de conservación. Es una opción especialmente valiosa para viajeros interesados en "
+        "fotografía, bienestar, caminatas de baja o media dificultad y experiencias que conecten con el territorio sin saturarlo. La logística "
+        "debe considerar hidratación, horarios de menor impacto ambiental, transporte adecuado y alojamientos que promuevan prácticas sostenibles. "
+        "Un itinerario completo puede incluir amaneceres en miradores, visitas a reservas, encuentros con productores locales, comidas de origen "
+        "campesino o comunitario y espacios de descanso donde el visitante comprenda por qué el equilibrio entre turismo y conservación es parte "
+        "central de la experiencia."
+    ),
+    "aventura": (
+        " Este destino se presta para una operación turística activa, con rutas exigentes, paisajes dramáticos y actividades que requieren "
+        "planificación cuidadosa. La experiencia puede incluir caminatas guiadas, deportes de viento o agua, recorridos en vehículos especializados, "
+        "visitas a miradores y encuentros culturales que explican la relación entre la comunidad y el territorio. Para que el viaje sea seguro y "
+        "memorable conviene integrar charlas de preparación, revisión de equipos, tiempos de aclimatación, hidratación constante y alternativas "
+        "para viajeros con distintos niveles de condición física. También es importante equilibrar la adrenalina con momentos de contemplación, "
+        "gastronomía regional y descanso suficiente. Un paquete bien diseñado debe destacar protocolos de seguridad, guías expertos, transporte "
+        "confiable y explicaciones sobre geografía, clima, historia local y buenas prácticas para reducir el impacto durante cada actividad."
+    ),
+    "pueblo": (
+        " La visita al pueblo invita a viajar con calma, caminar calles principales y secundarias, conversar con artesanos, probar recetas "
+        "tradicionales y descubrir historias que no siempre aparecen en los recorridos rápidos. Es un destino apropiado para parejas, familias "
+        "y viajeros culturales que valoran la arquitectura, la memoria local, los talleres manuales, los miradores y los hospedajes con atención "
+        "personalizada. Los itinerarios funcionan mejor cuando combinan una introducción histórica, tiempo libre para explorar plazas y tiendas, "
+        "experiencias gastronómicas y salidas a atractivos naturales cercanos. La operación turística puede apoyarse en guías residentes que "
+        "expliquen leyendas, procesos artesanales y dinámicas comunitarias. Un buen viaje debe permitir que el visitante entienda el ritmo del "
+        "lugar, respete sus espacios cotidianos y contribuya a la economía local mediante consumos responsables y servicios formales."
+    ),
+}
+
+
+def expandir_descripciones_destinos() -> None:
+    for destino in DESTINOS_DATA:
+        destino["descripcion"] = (
+            f"{destino['descripcion']}"
+            f"{DESTINO_DESCRIPCION_EXTRA.get(destino['categoria'], '')}"
+        )
+
+
+expandir_descripciones_destinos()
+
 ITINERARIOS_POOL = {
     "Aventura": (
         "Día 1: Expedición Extrema y Supervivencia. Arribo directo al destino geográfico e instalación formal en nuestro campamento base especializado. "
